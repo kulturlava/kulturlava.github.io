@@ -17,7 +17,7 @@ title: Kulturföreningen Lava
 email: jens@dreamtinsteractive.se
 description: > # this means to ignore newlines until "baseurl:"
   Kulturföreningen Lava arrangerar Solfesten 2017 i Ekfors, Tornedalen.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/kulturlava" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jensborje
 
