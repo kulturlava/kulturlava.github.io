@@ -6,7 +6,11 @@
   <body>
 
     {% include header.html %}
-
+    <div class="video">
+      <div class="wrapper">
+        {% include video.html id=page.videoId %}
+      </div>
+    </div>
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
         {{ content }}
