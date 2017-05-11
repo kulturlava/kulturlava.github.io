@@ -21,20 +21,22 @@
 }
 
 section {
-  clear: both;
+  float:left;
+
   h2 {
     text-align: center;
+    margin-top: 0.5em;
   }
 
   div {
     &:first-of-type {
-      @include col(5,11, $first:true);
+      @include col(11,24, $first:true);
       text-align: right;
     }
 
     &:last-of-type {
-      @include col(5,11, $last:true);
-      @include col-offset(1,11);
+      @include col(11,24, $last:true);
+      @include col-offset(1,24);
       text-align: left;
     }
 
@@ -45,13 +47,13 @@ section {
 
   img.small-image {
     &:first-of-type {
-        @include col(5,11, $first:true);
+        @include col(11,24, $first:true);
         text-align: right;
       }
 
       &:last-of-type {
-        @include col(5,11, $last:true);
-        @include col-offset(1,11);
+        @include col(11,24, $last:true);
+        @include col-offset(1,24);
         text-align: left;
       }
   }
