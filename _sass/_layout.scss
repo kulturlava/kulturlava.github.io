@@ -7,6 +7,7 @@
 
     a {
       @include col(2, 12);
+      float:none;
     }
   }
 
@@ -14,3 +15,62 @@
     @include col(12,12);
   }
 }
+
+.subtitle {
+  text-align: center;
+}
+
+section {
+  clear: both;
+  h2 {
+    text-align: center;
+  }
+
+  div {
+    &:first-of-type {
+      @include col(5,11, $first:true);
+      text-align: right;
+    }
+
+    &:last-of-type {
+      @include col(5,11, $last:true);
+      @include col-offset(1,11);
+      text-align: left;
+    }
+
+    h2 {
+      text-align: inherit;
+    }
+  }
+
+  img.small-image {
+    &:first-of-type {
+        @include col(5,11, $first:true);
+        text-align: right;
+      }
+
+      &:last-of-type {
+        @include col(5,11, $last:true);
+        @include col-offset(1,11);
+        text-align: left;
+      }
+  }
+
+  &.preamble {
+    p {
+      font-family: $brand-font-family;
+      font-size: 1.5em;
+    }
+  }
+}
+
+img.large-image {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+
+
+
