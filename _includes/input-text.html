@@ -1,0 +1,23 @@
+{% if site.data.strings.sv.form.items[include.string].type == "text" %}
+<div>
+  <label for="
+    {{ include.string }}">
+    {{ site.data.strings.sv.form.items[include.string].label }}</label>
+  <label for="
+    {{ include.string }}">
+    {{ site.data.strings.fit.form.items[include.string].label }}</label>
+  <input type="text"
+    id="{{ include.string }}"
+    name="{{ site.data.strings.sv.form.items[include.string].label }}"/>
+</div>
+{% else if site.data.strings.sv.form.items[include.string].type == "check" %}
+<div>
+  <input type="checkbox"
+    id="{{ include.string }}"
+    name="{{ site.data.strings.sv.form.items[include.string].label }}"/>
+  <label for="{{ include.string }}">
+    {{ site.data.strings.sv.form.items[include.string].label }} <br>
+    {{ site.data.strings.fit.form.items[include.string].label }}
+    </label>
+</div>
+{% endif %}

@@ -1,0 +1,109 @@
+h1.form-header {
+  text-align: center;
+}
+
+form {
+  margin: 0 auto;
+  width: 70%;
+  font-family: $brand-font-family;
+  text-align: center;
+
+  div {
+    width: 100%;
+  }
+
+  label {
+    display: inline-block;
+    font-size: 1.7em;
+    width: 50%;
+    float: left;
+
+    &:first-of-type {
+        text-align: left;
+    }
+
+    &:last-of-type {
+        text-align: right;
+    }
+  }
+
+
+  input[type="text"] {
+    width: 100%;
+    text-align: center;
+    font-size: 1.5em;
+    font-family: inherit;
+    padding: 0.5em;
+    margin: 0.5em 0 1em;
+    color: lighten($text-color, 30);
+    border: 1px solid darken($brand-color, 10);
+    border-radius: 2px;
+
+    &:focus {
+      background-color: darken(white, 1);
+    }
+
+  }
+
+  input[type="checkbox"] {
+    opacity: 0;
+    position: absolute;
+
+    & + label {
+      display: block;
+      width: 100%;
+      text-align: left;
+      float: left;
+      margin: 0.5em 0 1em;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &:before {
+        content: "\2713";
+        display: block;
+        font-size: 0.7em;
+        width: 1em;
+        height: 1em;
+        background-color: white;
+        border: 1px solid darken($brand-color, 10);
+        border-radius: 2px;
+        line-height: 1em;
+        padding: 0.3em;
+        text-align: center;
+        color: white;
+        float: left;
+        margin: 1em;
+      }
+
+
+      &:hover::before {
+        background-color: darken(white, 3);
+        color: rgba($brand-color, 0.5)!important;
+      }
+    }
+
+    &:focus + label:before {
+      background-color: darken(white, 1);
+      color: rgba($brand-color, 0.5)
+    }
+
+    &:checked + label:before {
+      color: darken($brand-color, 20)!important;
+    }
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid darken($brand-color,20);
+    font-family: $brand-font-family;
+    font-size: 4em;
+
+    &:hover, &:focus {
+      color: $brand-color-alt;
+      cursor: pointer;
+    }
+  }
+}

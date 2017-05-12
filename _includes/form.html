@@ -1,0 +1,10 @@
+<h1 class="form-header">{{ site.data.strings.sv.form.title }}
+  / {{ site.data.strings.fit.form.title }}</h1>
+<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyE7MLQTdcvf-ehGFXItK_UogoKuEKf8wRm7PKqF-87SVQSTsb3/exec">
+{% for string_hash in site.data.strings.sv.form.items %}
+  {% assign string = string_hash[0] %}
+  {% include input-text.html string=string %}
+{% endfor %}
+  <button type="submit">{{ site.data.strings.sv.form.button }}
+  / {{ site.data.strings.fit.form.button }}</button>
+</form>
