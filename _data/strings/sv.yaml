@@ -118,17 +118,47 @@ volonteer:
             gratis. Skriv upp dig här: xxxxxxx Först till kvarn!
 form:
     title: Anmälan
-    name: Namn
-    ssn: Personnummer
-    mail: E-post
-    phone: Telefon
-    food: Jag vill äta midsommarbuffé
-    diet: Särskilda kostbehov
-    pickup: Jag vill bli hämtad i Övertorneå eller Överkalix
-    pickupDate: När vill du bli hämtad?
-    poolSpace: Jag har plats över i bilen
-    poolRoute: Väg jag tar upp till Ekfors och när
-    poolNeed: Jag letar bil att åka i
-    poolPickup: Ort jag vill bli upplockad i och när
-    accomodation: Jag kommer att övernatta
-    volonteer: Jag vill vara funktionär
+    items:
+      name:
+        label: Namn
+        type: text
+      ssn:
+        label: Personnummer
+        type: text
+      mail:
+        label: E-post
+        type: text
+      phone:
+        label: Telefon
+        type: text
+      food:
+        label: Jag vill äta midsommarbuffé
+        type: check
+      diet:
+        label: Särskilda kostbehov
+        type: text
+      pickup:
+        label: Jag vill bli hämtad i Övertorneå eller Överkalix
+        type: check
+      pickupDate:
+        label: När vill du bli hämtad?
+        type: text
+      poolSpace:
+        label: Jag har plats över i bilen
+        type: check
+      poolRoute:
+        label: Väg jag tar upp till Ekfors och när
+        type: text
+      poolNeed:
+        label: Jag letar bil att åka i
+        type: check
+      poolPickup:
+        label: Ort jag vill bli upplockad i och när
+        type: text
+      accomodation:
+        label: Jag kommer att övernatta
+        type: check
+      volonteer:
+        label: Jag vill vara funktionär
+        type: check
+    button: Skicka in

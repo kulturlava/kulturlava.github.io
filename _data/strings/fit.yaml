@@ -118,17 +118,47 @@ volonteer:
             ilman maksua. Kirjota nimi tähän:xxxx Först till kvarn!
 form:
     title: Ilmotus
-    name: Nimi
-    ssn: Henkilönumero
-    mail: Sähköposti
-    phone: Telefooninumero
-    food: Mie halvaa syä juhanusbyffén
-    diet: Vasittuja ruokavaatimuksia
-    pickup: Mie halvaan ette minut nouethaan Matarengista eli Ylikaihnuulta
-    pickupDate: Minkä aikana sinut pittä noutaa?
-    poolSpace: Mulla oon siijaa piilissä muile
-    poolRoute:
-    poolNeed: Mie halvaan oookata jonku matkassa
-    poolPickup:
-    accomodation: Mie jään yöksi
-    volonteer: Mie halvaan olle fynktionääri
+    items:
+      name:
+        label: Nimi
+        type: text
+      ssn:
+        label: Henkilönumero
+        type: text
+      mail:
+        label: Sähköposti
+        type: text
+      phone:
+        label: Telefooninumero
+        type: text
+      food:
+        label: Mie halvaa syä juhanusbyffén
+        type: check
+      diet:
+        label: Vasittuja ruokavaatimuksia
+        type: text
+      pickup:
+        label: Mie halvaan ette minut nouethaan Matarengista eli Ylikaihnuulta
+        type: check
+      pickupDate:
+        label: Minkä aikana sinut pittä noutaa?
+        type: text
+      poolSpace:
+        label: Mulla oon siijaa piilissä muile
+        type: check
+      poolRoute:
+        label:
+        type: text
+      poolNeed:
+        label: Mie halvaan oookata jonku matkassa
+        type: check
+      poolPickup:
+        label:
+        type: text
+      accomodation:
+        label: Mie jään yöksi
+        type: check
+      volonteer:
+        label: Mie halvaan olle fynktionääri
+        type: check
+    button: Lähetä
