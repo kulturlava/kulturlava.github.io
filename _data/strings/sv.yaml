@@ -1,11 +1,12 @@
 title: Solfesten
 subtitle: |
           "Vi städar ur fårstallet och lånar in ett PA"
-preamble: |
-          Det är precis vad vi ska göra! Kulturföreningen Lava bjuder in er
-          alla till midsommarfirande under tornedalens midnattssol.
-          Tillsammans skapar vi en midsommarafton med musik, dans, lek, bastu,
-          midsommarbuffé och ett firande vi sent kommer glömma.
+preamble:
+    p: |
+        Det är precis vad vi ska göra! Kulturföreningen Lava bjuder in er
+        alla till midsommarfirande under tornedalens midnattssol.
+        Tillsammans skapar vi en midsommarafton med musik, dans, lek, bastu,
+        midsommarbuffé och ett firande vi sent kommer glömma.
 date:
     title: Midsommar 23/6
     p : |

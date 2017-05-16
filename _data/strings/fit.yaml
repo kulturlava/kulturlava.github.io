@@ -1,11 +1,12 @@
 title: Aurinkofesti
 subtitle: |
           "Met siivoama lammastallin ja lainaama PA:n"
-preamble: |
-          Justhaans sen met tehemä! Kylttyyriföreninki Lava kuttuu teät kaikki
-          viettähmään juhanusta Tornionlaakson keskiyön auringon alle. Yhteisin
-          voimin tehemä juhanusaaton mihin kuuluu mysiikkiä, tansia, leikkiä,
-          saunomista, juhannusbyffé ja fästit mikkä myöhään unohethaan!
+preamble:
+    p: |
+        Justhaans sen met tehemä! Kylttyyriföreninki Lava kuttuu teät kaikki
+        viettähmään juhanusta Tornionlaakson keskiyön auringon alle. Yhteisin
+        voimin tehemä juhanusaaton mihin kuuluu mysiikkiä, tansia, leikkiä,
+        saunomista, juhannusbyffé ja fästit mikkä myöhään unohethaan!
 date:
     title: Juhanus 23/6
     p : |
