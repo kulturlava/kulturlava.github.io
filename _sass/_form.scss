@@ -29,6 +29,11 @@ form {
     &:last-of-type {
         text-align: right;
     }
+
+    @include media-query($on-palm) {
+      width: 100%;
+      text-align: left!important;
+    }
   }
 
 
@@ -81,10 +86,16 @@ form {
         margin: 1em;
       }
 
-
       &:hover::before {
         background-color: darken(white, 3);
         color: rgba($brand-color, 0.5)!important;
+      }
+
+      span {
+        display: block;
+        @include media-query($on-palm) {
+          margin-top: 0.4em;
+        }
       }
     }
 

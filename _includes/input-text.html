@@ -1,11 +1,16 @@
 {% if site.data.strings.sv.form.items[include.string].type == "text" %}
 <div>
-  <label for="
+  <label class="sv" for="
     {{ include.string }}">
     {{ site.data.strings.sv.form.items[include.string].label }}</label>
-  <label for="
+  <label class="fit" for="
     {{ include.string }}">
-    {{ site.data.strings.fit.form.items[include.string].label }}</label>
+    {% if site.data.strings.fit.form.items[include.string].label %}
+      {{ site.data.strings.fit.form.items[include.string].label }}
+    {% else %}
+      {{ site.data.strings.sv.form.items[include.string].label }}
+    {% endif %}
+  </label>
   <input type="text"
     id="{{ include.string }}"
     name="{{ site.data.strings.sv.form.items[include.string].label }}"/>
@@ -16,8 +21,12 @@
     id="{{ include.string }}"
     name="{{ site.data.strings.sv.form.items[include.string].label }}"/>
   <label for="{{ include.string }}">
-    {{ site.data.strings.sv.form.items[include.string].label }} <br>
-    {{ site.data.strings.fit.form.items[include.string].label }}
+    <span class="sv">
+      {{ site.data.strings.sv.form.items[include.string].label }}
+    </span>
+    <span class="fit">
+      {{ site.data.strings.fit.form.items[include.string].label }}
     </label>
+    </span>
 </div>
 {% endif %}
