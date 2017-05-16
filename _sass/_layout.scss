@@ -113,14 +113,16 @@ footer.site-footer {
   }
 }
 
-body.sv {
-  .fit {
-    display: none!important;
+@include media-query($on-palm) {
+  body.sv {
+    .fit {
+      display: none!important;
+    }
   }
-}
 
-body.fit {
-  .sv {
-    display: none!important;
+  body.fit {
+    .sv {
+      display: none!important;
+    }
   }
 }
