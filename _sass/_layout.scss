@@ -29,19 +29,20 @@ section {
   }
 
   div {
-    &:first-of-type {
-      @include col(11,24, $first:true);
+    &:nth-of-type(odd) {
+      @include col(11,23, $first:true);
       text-align: right;
+      clear: both;
     }
 
-    &:last-of-type {
-      @include col(11,24, $last:true);
-      @include col-offset(1,24);
+    &:nth-of-type(even) {
+      @include col(11,23, $last:true);
+      @include col-offset(1,23);
       text-align: left;
     }
 
-    &:first-of-type, &:last-of-type {
-        @include media-query($on-palm) {
+    &:nth-of-type(odd), &:nth-of-type(even) {
+      @include media-query($on-palm) {
         @include col(24,24, $first:true);
         padding: 0 1em;
         margin: 0;
@@ -56,13 +57,13 @@ section {
 
   img.small-image {
     &:first-of-type {
-        @include col(11,24, $first:true);
+        @include col(11,23, $first:true);
         text-align: right;
       }
 
       &:last-of-type {
-        @include col(11,24, $last:true);
-        @include col-offset(1,24);
+        @include col(11,23, $last:true);
+        @include col-offset(1,23);
         text-align: left;
       }
   }
@@ -71,6 +72,12 @@ section {
     p {
       font-family: $brand-font-family;
       font-size: 1.5em;
+    }
+  }
+
+  &.date {
+    h3 {
+      font-size: 3em;
     }
   }
 }
@@ -115,14 +122,31 @@ footer.site-footer {
 
 @include media-query($on-palm) {
   body.sv {
+    .sv {
+      animation: fade-in 1s;
+    }
     .fit {
       display: none!important;
     }
   }
 
   body.fit {
+    .fit {
+      animation: fade-in 1s;
+    }
     .sv {
       display: none!important;
     }
   }
+}
+
+@keyframes switch {
+  0% { background-color: white; }
+  50% { background-color: $brand-color; }
+  100% { background-color: white; }
+}
+
+@keyframes fade-in {
+  0% { display: block; opacity: 0;}
+  100% { opacity: 1; }
 }
