@@ -3,7 +3,7 @@
 
   {% include head.html %}
 
-  <body>
+  <body class="sv">
 
     {% include header.html %}
     <div class="video">
@@ -17,10 +17,10 @@
         <h3 class="subtitle">{{ site.data.strings.sv.subtitle }}
         / {{ site.data.strings.fit.subtitle }}</h3>
         <section class="preamble">
-          <div>
+          <div class="sv">
             <p>{{ site.data.strings.sv.preamble }}</p>
           </div>
-          <div>
+          <div class="fit">
             <p>{{ site.data.strings.fit.preamble }}</p>
           </div>
         </section>
@@ -195,6 +195,10 @@
     </div>
     {% include footer.html %}
 
+    <div id="language">
+      <button value="sv" id="active">Svenska</button>
+      / <button value="fit">Meänkieli</button>
+    </div>
   </body>
 
 </html>

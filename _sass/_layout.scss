@@ -40,6 +40,15 @@ section {
       text-align: left;
     }
 
+    &:first-of-type, &:last-of-type {
+        @include media-query($on-palm) {
+        @include col(24,24, $first:true);
+        padding: 0 1em;
+        margin: 0;
+        text-align: left;
+      }
+    }
+
     h2 {
       text-align: inherit;
     }
@@ -75,4 +84,43 @@ img.large-image {
 footer.site-footer {
   text-align: center;
   margin-top: 4em;
+}
+
+#language {
+  display: none;
+
+  @include media-query($on-palm) {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1em;
+    font-size:1.4em;
+    background-color: $brand-color;
+    color: white;
+    font-family: $brand-font-family;
+    text-align: center;
+
+    button {
+      font-family: inherit;
+      font-size: inherit;
+      color: inherit;
+    }
+
+    #active {
+      color: $brand-color-alt;
+    }
+  }
+}
+
+body.sv {
+  .fit {
+    display: none!important;
+  }
+}
+
+body.fit {
+  .sv {
+    display: none!important;
+  }
 }

@@ -1,0 +1,17 @@
+<script>
+  window.onload = function() {
+    var children = document.getElementById('language').childNodes;
+
+    for (var i = 0; i < children.length; i++) {
+      if (children[i].tagName == "BUTTON") {
+        children[i].addEventListener('click', switchLanguage);
+      }
+    }
+  }
+
+  function switchLanguage() {
+    document.body.className = this.value;
+    document.getElementById('active').removeAttribute('id');
+    this.setAttribute('id', 'active');
+  }
+</script>
