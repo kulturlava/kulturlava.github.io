@@ -8,6 +8,10 @@ form {
   font-family: $brand-font-family;
   text-align: center;
 
+  @include media-query($on-palm) {
+    width: 95%;
+  }
+
   div {
     width: 100%;
   }
