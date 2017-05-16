@@ -1,0 +1,32 @@
+<section class="{{include.section}}">
+    {% if site.data.strings.sv[include.section].p %}
+      <div class="sv">
+        <h3>{{ site.data.strings.sv[include.section].title }}</h3>
+        <p>{{ site.data.strings.sv[include.section].p }}</p>
+      </div>
+      <div class="fit">
+        <h3>{{ site.data.strings.fit[include.section].title }}</h3>
+        <p>{{ site.data.strings.fit[include.section].p }}</p>
+      </div>
+
+    {% else %}
+      {% if site.data.strings.sv[include.section].title %}
+      <h2>{{ site.data.strings.sv[include.section].title }}
+            / {{ site.data.strings.fit[include.section].title }}</h2>
+      {% endif %}
+
+      {% for string_hash in site.data.strings.sv[include.section] %}
+        {% assign string = string_hash[0] %}
+        {% if string != "title" %}
+          <div class="sv">
+            <h3>{{ site.data.strings.sv[include.section][string].title }}</h3>
+            <p>{{ site.data.strings.sv[include.section][string].p }}</p>
+          </div>
+          <div class="fit">
+            <h3>{{ site.data.strings.fit[include.section][string].title }}</h3>
+            <p>{{ site.data.strings.fit[include.section][string].p }}</p>
+          </div>
+          {% endif %}
+      {% endfor %}
+    {% endif %}
+</section>

@@ -16,103 +16,22 @@
       <div class="wrapper">
         <h3 class="subtitle">{{ site.data.strings.sv.subtitle }}
         / {{ site.data.strings.fit.subtitle }}</h3>
-        <section class="preamble">
-          <div class="sv">
-            <p>{{ site.data.strings.sv.preamble }}</p>
-          </div>
-          <div class="fit">
-            <p>{{ site.data.strings.fit.preamble }}</p>
-          </div>
-        </section>
 
-        <section>
-          <div>
-            <h2>{{ site.data.strings.sv.date.title }}</h2>
-            <p>{{ site.data.strings.sv.date.p }}</p>
-          </div>
-          <div>
-            <h2>{{ site.data.strings.fit.date.title }}</h2>
-            <p>{{ site.data.strings.fit.date.p }}</p>
-          </div>
-        </section>
+        {% include text.html section="preamble" %}
 
-        <section>
-          <div>
-            <h3>{{ site.data.strings.sv.location.title }}</h3>
-            <p>{{ site.data.strings.sv.location.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.location.title }}</h3>
-            <p>{{ site.data.strings.fit.location.p }}</p>
-          </div>
-        </section>
-      </div>
+        {% include text.html section="date" %}
+
+        {% include text.html section="location" %}
 
         <img class="large-image"
           src="{{ relative_url }} /assets/img/kulturlava-binding.jpg"
           alt="Kulturföreningen Lava">
 
       <div class="wrapper">
-        <section>
-          <h2>{{ site.data.strings.sv.join.title }}
-          / {{ site.data.strings.fit.join.title }}</h2>
 
-          <div>
-            <h3>{{ site.data.strings.sv.join.directions.title }}</h3>
-            <p>{{ site.data.strings.sv.join.directions.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.join.directions.title }}</h3>
-            <p>{{ site.data.strings.fit.join.directions.p }}</p>
-          </div>
-        </section>
+        {% include text.html section="join" %}
 
-        <section>
-          <div>
-            <h3>{{ site.data.strings.sv.join.pooling.title }}</h3>
-            <p>{{ site.data.strings.sv.join.pooling.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.join.pooling.title }}</h3>
-            <p>{{ site.data.strings.fit.join.pooling.p }}</p>
-          </div>
-        </section>
-
-        <section>
-          <div>
-            <h3>{{ site.data.strings.sv.join.pickup.title }}</h3>
-            <p>{{ site.data.strings.sv.join.pickup.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.join.pickup.title }}</h3>
-            <p>{{ site.data.strings.fit.join.pickup.p }}</p>
-          </div>
-        </section>
-
-        <section>
-          <h2>{{ site.data.strings.sv.membership.title }}
-          / {{ site.data.strings.fit.membership.title }}</h2>
-
-          <div>
-            <h3>{{ site.data.strings.sv.membership.org.title }}</h3>
-            <p>{{ site.data.strings.sv.membership.org.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.membership.org.title }}</h3>
-            <p>{{ site.data.strings.fit.membership.org.p }}</p>
-          </div>
-        </section>
-
-        <section>
-          <div>
-            <h3>{{ site.data.strings.sv.membership.payment.title }}</h3>
-            <p>{{ site.data.strings.sv.membership.payment.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.membership.payment.title }}</h3>
-            <p>{{ site.data.strings.fit.membership.payment.p }}</p>
-          </div>
-        </section>
+        {% include text.html section="membership" %}
 
         <section>
           <img class="small-image"
@@ -124,69 +43,12 @@
             alt="Kulturföreningen Lava">
         </section>
 
-        <section>
-          <h2>{{ site.data.strings.sv.food.title }}
-          / {{ site.data.strings.fit.food.title }}</h2>
+        {% include text.html section="food" %}
 
-          <div>
-            <h3>{{ site.data.strings.sv.food.buffet.title }}</h3>
-            <p>{{ site.data.strings.sv.food.buffet.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.food.buffet.title }}</h3>
-            <p>{{ site.data.strings.fit.food.buffet.p }}</p>
-          </div>
-        </section>
+        {% include text.html section="accomodation" %}
 
-        <section>
-          <div>
-            <h3>{{ site.data.strings.sv.food.cooking.title }}</h3>
-            <p>{{ site.data.strings.sv.food.cooking.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.food.cooking.title }}</h3>
-            <p>{{ site.data.strings.fit.food.cooking.p }}</p>
-          </div>
-        </section>
+        {% include text.html section="volonteer" %}
 
-        <section>
-          <div>
-            <h3>{{ site.data.strings.sv.food.alcohol.title }}</h3>
-            <p>{{ site.data.strings.sv.food.alcohol.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.food.alcohol.title }}</h3>
-            <p>{{ site.data.strings.fit.food.alcohol.p }}</p>
-          </div>
-        </section>
-
-        <section>
-          <h2>{{ site.data.strings.sv.accomodation.title }}
-          / {{ site.data.strings.fit.accomodation.title }}</h2>
-
-          <div>
-            <h3>{{ site.data.strings.sv.accomodation.camping.title }}</h3>
-            <p>{{ site.data.strings.sv.accomodation.camping.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.accomodation.camping.title }}</h3>
-            <p>{{ site.data.strings.fit.accomodation.camping.p }}</p>
-          </div>
-        </section>
-
-        <section>
-          <h2>{{ site.data.strings.sv.volonteer.title }}
-          / {{ site.data.strings.fit.volonteer.title }}</h2>
-
-          <div>
-            <h3>{{ site.data.strings.sv.volonteer.help.title }}</h3>
-            <p>{{ site.data.strings.sv.volonteer.help.p }}</p>
-          </div>
-          <div>
-            <h3>{{ site.data.strings.fit.volonteer.help.title }}</h3>
-            <p>{{ site.data.strings.fit.volonteer.help.p }}</p>
-          </div>
-        </section>
       </div>
     </main>
     {{ content }}
