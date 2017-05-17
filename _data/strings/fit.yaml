@@ -1,29 +1,29 @@
 title: Aurinkofesti
-subtitle: |
+subtitle: >
           "Met siivoama lammastallin ja lainaama PA:n"
 preamble:
-    p: |
+    p: >
         Justhaans sen met tehemä! Kylttyyriföreninki Lava kuttuu teät kaikki
         viettähmään juhanusta Tornionlaakson keskiyön auringon alle. Yhteisin
         voimin tehemä juhanusaaton mihin kuuluu mysiikkiä, tansia, leikkiä,
         saunomista, juhannusbyffé ja fästit mikkä myöhään unohethaan!
 date:
     title: Juhanus 23/6
-    p : |
+    p : >
         Juhanusaatto on kesäkuun 23 päivä ja fästit alkava aamupäivälä ja
         jatkuva niin pikthään ko jaksethaan pittää silmät auki. Tänne saattaa
         tulla jo ennen fästiä jos halvaa ja ei täältä tartte olla hopussa
         lähtehmään. Voima työstää fästiä pari päivää sen jälkhiin.
 location:
     title: Puostijärven Alapää
-    p: |
+    p: >
         Fästit piethään Bengt AIlin tykönä Ekforsissa. Hään assuu Puostijärven
         rannala, pari penikulmaa Matarengista.
 join:
     title: Tule sieki fölhjyyn
     directions:
         title: Millä sinne löytää?
-        p: |
+        p: >
             Jos oletta piililä liikheelä aja rohki E nelosta! Kalixin jälkhiin
             käänyt vasemale tie nro 398. Aja 4 penikulmaa ja käänä vasemale
             Ekforsia kohin. Siittä oon vielä 13 km kryysitietä enneko tulet
@@ -42,30 +42,32 @@ join:
             Kartta ja tiekylttiä oon matkan varrela!
     pooling:
         title: Yhessä ookaaminen
-        p: |
+        p: >
             Paras keino millä päästä oikehaan juhannustunnelhmaan oon ette
             reisata porukassa. Alempana tässä tokymentissä löytyy sija mihin
             saatat kirjottaa jos sulla oon siijaa piilissä tai jos halvaat ette
             joku ottaa sinut kyythiin matkan varrela.
     pickup:
         title: Noutaminen
-        p: |
+        p: >
+            Alempana saatat kirjottaa jos halvaat ette sinut nouethaan
+            Matarengista eli Ylikaihnuulta. Saatama noutaa sinut ennen
+            juhanusta eli jälkhiin ko ittenä juhanusaattona touhua oon niin
+            monenlaista ette met emmä keritä mihinkhään.
+
             Pääsee Bengtin tykö pyssiläki Matarengista ja Ylikaihnuulta! Jos
             tulet etelästä päin soon juna eli lento mikä jällaa Luulahjaan.
             Sieltä mennee pyssiä Matarenkhiin ja Ylikaihnuule mutta hoksaa
             vaihettaa Kaihnuussa eli Haaparannala. Pyssi mennee neljästi joka
             päivä. Pyssitrafiiki soppii kans sulle joka tulet pohjosesta.
-            Kaikki reitit löytyy tästä: http://ltnbd.se/.
-
-            Alempana saatat kirjottaa jos halvaat ette sinut nouethaan
-            Matarengista eli Ylikaihnuulta. Saatama noutaa sinut ennen
-            juhanusta eli jälkhiin ko ittenä juhanusaattona touhua oon niin
-            monenlaista ette met emmä keritä mihinkhään.
+        a:
+          label: Kaikki reitit löytyy tästä.
+          href: http://ltnbd.se/
 membership:
     title: Tule jäseneksi!
     org:
         title: Föreningen
-        p: |
+        p: >
             Aurinkofestin järjestää Kylttyyriföreninki LAVA ja jos halvaat
             ottaa ossaa juhanusaaton kaikista ihanuuksista jou´ut alkaahmaan
             föreninkin jäsenksi. Se maksaa 0 kr! Jos täytät formyläärin niin
@@ -73,7 +75,7 @@ membership:
             18 päivä, lokistisista syistä.
     payment:
           title: No maksu sitte?
-          p: |
+          p: >
               Ette saama kaikki pyörihmään meän oon pakko ottaa maksun ja se
               oon vähhiinthään 150 kr. Siihen kuuluu mahottoman hauskan
               juhanusfästin lisäksi juhanusbyffé. Jos maksusta jääpii jotaki
@@ -85,18 +87,18 @@ food:
     title: Murkina
     buffet:
         title: Juhanusbuffé
-        p: |
+        p: >
             Juhanusaattona juhanusbyffé passaa lohta rakastaville jag kans
             vegaanile. Illala grillaama soijamakkaroita yhessä.
     cooking:
         title: Ruanlaitto
-        p: |
+        p: >
             Tet jokka jäättä pariksi päiväksi saatta käyttää Bengtin köökiä.
             Laitama ruokaa talkoomeininkilä ja ostama ruoat yhessä. Jos sulla
             oon pikku spriikööki, solekki ottaa matkhaan!
     alcohol:
         title: Alkoholi
-        p: |
+        p: >
             Met olema kaikin jäseniä Kylttyyriföreninki Lava:ssa ja siksi
             alkoholia saapii ostaa kohtuuhinthaan jos oon yli 18 v
             (rajotetuissa määrissä kylläki niin ota ittekki matkhaan ommaa)
@@ -104,7 +106,7 @@ accomodation:
     title: Yön yli jääminen
     camping:
         title: Camping
-        p: |
+        p: >
             Kartanola oon kotia missä saattaa nukkua. Jos halvaat vähän
             rauhalisempaa nukkumista niin ota oma teltta matkhaan. Talon
             sänkypaikat oon ensikätheen tarkotettu essiintyvile artistile.
@@ -113,10 +115,13 @@ volonteer:
     title: Fynktionääri
     help:
         title: Halvaaks auttaa?
-        p: |
+        p: >
             Met tarttema apua ette saatama tehä Aurinkofästistä maakisen
             kokemuksen. Ilmota ittesti fynktionääriksi ja ole matkassa fästissä
-            ilman maksua. Kirjota nimi tähän:xxxx Först till kvarn!
+            ilman maksua.
+        a:
+          label: Kirjota nimi tähän.
+          href: http://tiny.cc/solfesten-funktionar
 form:
     title: Ilmotus
     items:

@@ -1,29 +1,29 @@
 title: Solfesten
-subtitle: |
+subtitle: >
           "Vi städar ur fårstallet och lånar in ett PA"
 preamble:
-    p: |
+    p: >
         Det är precis vad vi ska göra! Kulturföreningen Lava bjuder in er
         alla till midsommarfirande under tornedalens midnattssol.
         Tillsammans skapar vi en midsommarafton med musik, dans, lek, bastu,
         midsommarbuffé och ett firande vi sent kommer glömma.
 date:
     title: Midsommar 23/6
-    p : |
+    p : >
         Midsommarafton är den 23 juni och firandet kommer börja på förmiddagen
         och fortsätta tills vi inte längre orkar hålla ögonen öppna. Det går
         även bra att komma dagarna innan och stanna gärna kvar och bearbeta
         aftonen några dagar efteråt.
 location:
     title: Ekfors, Övertorneå
-    p: |
+    p: >
         Firandet kommer äga rum på Bengt Ailis gård i Ekfors. Gården ligger vid
         sjön Puostijärvi, två mil från Övertorneå.
 join:
     title: Häng med
     directions:
         title: Vägbeskrivning
-        p: |
+        p: >
             Kör ni bil söderifrån är det E4an som gäller. Efter Kalix svänger du
             vänster upp på väg 398. Kör 4 mil och sväng sedan vänster mot
             Ekfors. Då har du 13 km kvar på grusväg tills du kommer fram till
@@ -41,29 +41,32 @@ join:
             Karta och vägskyltar kommer finnas!
     pooling:
         title: Samåkning
-        p: |
+        p: >
             Att åka tillsammans kan vara bästa sättet att peppa inför
             midsommarafton. Längre ner i dokumentet kan du fylla i om du har
             platser över i bilen eller om du önskar bli upplockad på vägen.
     pickup:
         title: Upphämtning
-        p: |
+        p: >
+            Längre ner kan du fylla i när du vill bli upphämtad i Övertorneå
+            eller Överkalix. Skjuts kan bara ordnas dagarna innan och efter
+            midsommar och inte under själva midsommaraftonen då det kommer
+            vara så fullt upp på gården hela dagen.
+
             Det går även att åka kollektivt till Övertorneå eller Överkalix.
             Kommer du söderifrån är det tåg eller flyg upp till Luleå som
             gäller. Därifrån går det bussar som kan ta er till Övertorneå eller
             Överkalix med byte i antingen Kalix eller Haparanda. Vardera tur
             går fyra gånger om dagen. Busstrafiken kan även ta dig som kommer
-            norrifrån. Alla turer hittar ni här: http://ltnbd.se/.
-
-            Längre ner kan du fylla i när du vill bli upphämtad i Övertorneå
-            eller Överkalix. Skjuts kan bara ordnas dagarna innan och efter
-            midsommar och inte under själva midsommaraftonen då det kommer
-            vara så fullt upp på gården hela dagen.
+            norrifrån.
+        a:
+          label: Alla turer hittar ni här.
+          href: http://ltnbd.se/
 membership:
     title: Medlemskap
     org:
         title: Föreningen
-        p: |
+        p: >
             Aurinkofesti / Solfesten anordnas av kulturföreningen Lava och för
             att få ta del av midsommaraftonens alla härligheter krävs
             medlemskap i föreningen som kostar 0 kr! Medlemskap ordnas genom
@@ -71,7 +74,7 @@ membership:
             senast den 18 juni av logistiska skäl.
     payment:
           title: Betalning
-          p: |
+          p: >
               För att få det hela att gå runt behöver vi ta en avgift på
               minimum 150 kr. Då får ni förutom ett hejdundrande
               midsommarfirande även en midsommarbuffé för alla. Allt överskott
@@ -84,19 +87,19 @@ food:
     title: Mat
     buffet:
         title: Midsommarbuffé
-        p: |
+        p: >
             På midsommarafton kommer vi ordna med en midsommarbuffé för
             laxätare såväl som veganer. På kvällen myser vi med grillad
             sojakorv.
     cooking:
         title: Matlagning
-        p: |
+        p: >
             För er som stannar några dagar extra kommer vi kunna använda Bengts
             kök. Matlag kan skapas och inköp koordineras. Har du ett stormkök
             är det bara att ta med.
     alcohol:
         title: Alkohol
-        p: |
+        p: >
             Då vi alla är medlemmar i Kulturföreningen LAVA kommer det finnas
             dryck av olika slag (dock i begränsad mängd så ta även med själv om
             du vill) att köpa till ett rimligt pris för de över 18 år.
@@ -104,7 +107,7 @@ accomodation:
     title: Övernattning
     camping:
         title: Camping
-        p: |
+        p: >
             På gården kommer det finnas kåtor för övernattning. Vill du ha
             mer privatliv går det såklart bra att ta med ett eget tält.
             Sängplatser i huset kommer i första hand gå till de artister
@@ -113,10 +116,13 @@ volonteer:
     title: Funktionär
     help:
         title: Kan du hjälpa till?
-        p: |
+        p: >
             Vi behöver hjälp för att kunna göra Aurinkofesti / Solfesten till
             en magisk upplevelse. Anmäl dig som funktionär och få hela firandet
-            gratis. Skriv upp dig här: xxxxxxx Först till kvarn!
+            gratis.
+        a:
+          label: Skriv upp dig här.
+          href: http://tiny.cc/solfesten-funktionar
 form:
     title: Anmälan
     items:
