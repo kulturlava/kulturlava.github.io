@@ -81,8 +81,10 @@ membership:
               går till gage för artister så betala gärna in avgiften så fort
               du vet att du ska komma så vi vet hur mycket vi kan erbjuda
               banden. Känner du dig lite extra rik får du mer än gärna skänka
-              en extra slant. Betala genom att swisha 150 kr till 070 696 23 50
-              och skriv Solfesten alt. Aurinkofesti.
+              en extra slant.
+
+              Betala genom att swisha 150 kr till 070 696 23 50
+              och skriv Solfesten.
 food:
     title: Mat
     buffet:
@@ -100,7 +102,7 @@ food:
     alcohol:
         title: Alkohol
         p: >
-            Då vi alla är medlemmar i Kulturföreningen LAVA kommer det finnas
+            Då vi alla är medlemmar i Kulturföreningen Lava kommer det finnas
             dryck av olika slag (dock i begränsad mängd så ta även med själv om
             du vill) att köpa till ett rimligt pris för de över 18 år.
 accomodation:
@@ -117,7 +119,7 @@ volonteer:
     help:
         title: Kan du hjälpa till?
         p: >
-            Vi behöver hjälp för att kunna göra Aurinkofesti / Solfesten till
+            Vi behöver hjälp för att kunna göra Solfesten till
             en magisk upplevelse. Anmäl dig som funktionär och få hela firandet
             gratis.
         a:
