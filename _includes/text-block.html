@@ -1,5 +1,4 @@
-{% for string_hash in site.data.strings reversed %}
-{% assign lang = string_hash[0] %}
+{% for lang in page.lang  %}
 {% assign stringSize = string | size %}
 
 {% if stringSize == 0 %}
