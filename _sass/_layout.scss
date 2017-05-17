@@ -53,6 +53,12 @@ section {
     h2 {
       text-align: inherit;
     }
+
+    p {
+      br {
+        line-height: 3em;
+      }
+    }
   }
 
   img.small-image {
