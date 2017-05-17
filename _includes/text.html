@@ -9,7 +9,9 @@
 
       {% for string_hash in site.data.strings.sv[include.section] %}
         {% assign string = string_hash[0] %}
+        {% if string != "title" %}
           {% include text-block.html section=include.section string=string %}
+          {% endif %}
       {% endfor %}
     {% endif %}
 </section>
