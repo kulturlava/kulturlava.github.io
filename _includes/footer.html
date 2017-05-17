@@ -2,6 +2,14 @@
 
   <div class="wrapper">
 
+    <div class="credits">
+        {% for lang in page.lang  %}
+            {% if site.data.strings[lang].credits %}
+                {{ site.data.strings[lang].credits }} <br>
+            {% endif %}
+        {% endfor %}
+    </div>
+
     <h3 class="footer-heading">{{ site.title | escape }}</h3>
 
 </footer>
