@@ -22,10 +22,12 @@
         {% include text.html section="date" %}
 
         {% include text.html section="location" %}
+      </div>
 
-        <img class="large-image"
-          src="{{ relative_url }} /assets/img/kulturlava-binding.jpg"
-          alt="Kulturföreningen Lava">
+      <div class="large-image"
+        style="background-image:
+          url('{{ relative_url }} /assets/img/kulturlava-binding.jpg')">
+      </div>
 
       <div class="wrapper">
 
@@ -33,14 +35,16 @@
 
         {% include text.html section="membership" %}
 
-        <section>
-          <img class="small-image"
-            src="{{ relative_url }} /assets/img/kulturlava-binding.jpg"
-            alt="Kulturföreningen Lava">
+        <section class="images">
+          <div class="small-image"
+            style="background-image:
+            url('{{ relative_url }} /assets/img/kulturlava-food.jpg')">
+          </div>
 
-          <img class="small-image"
-            src="{{ relative_url }} /assets/img/kulturlava-binding.jpg"
-            alt="Kulturföreningen Lava">
+          <div class="small-image"
+            style="background-image:
+            url('{{ relative_url }} /assets/img/kulturlava-social.jpg')">
+          </div>
         </section>
 
         {% include text.html section="food" %}
