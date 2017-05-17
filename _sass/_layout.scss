@@ -34,6 +34,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-color: #eee;
+  cursor: pointer;
 
   &:before {
     content: ' ';
@@ -55,6 +56,12 @@
       left: calc(50% - 25px);
       top: calc(50% - 50px);
       opacity: 1;
+    }
+  }
+
+  &:hover {
+    &::before {
+      border-left-color: lighten($brand-color-alt, 5);
     }
   }
 
