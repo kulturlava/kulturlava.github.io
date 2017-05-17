@@ -168,6 +168,32 @@ section {
   background-repeat: no-repeat;
 }
 
+.social {
+  text-align: center;
+  margin: 2em 0;
+  a {
+    display: inline-block;
+    color: lighten($text-color, 40);
+
+    &:hover {
+      text-decoration: none;
+      color: $brand-color-alt;
+    }
+    img {
+      display: inline-block;
+      max-width: 5em;
+    }
+    h2 {
+      display: inline-block;
+      margin-bottom: 0;
+      line-height: 2em;
+      vertical-align: middle;
+      margin-left: 0.5em;
+    }
+  }
+
+}
+
 footer.site-footer {
   text-align: center;
   margin-top: 4em;
