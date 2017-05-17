@@ -154,13 +154,13 @@ form:
         label: Mulla oon siijaa piilissä muile
         type: check
       poolRoute:
-        label:
+        label: Mie ajan Ekforshiin. Tietä? Kello?
         type: text
       poolNeed:
         label: Mie halvaan oookata jonku matkassa
         type: check
       poolPickup:
-        label:
+        label: Mie halvaan ette minut nouethaan. Mistä? Millon?
         type: text
       accomodation:
         label: Mie jään yöksi
