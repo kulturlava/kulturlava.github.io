@@ -14,4 +14,18 @@
     document.getElementById('active').removeAttribute('id');
     this.setAttribute('id', 'active');
   }
+
+  window.onscroll = function() {
+    var d = document.body;
+    var offset = d.scrollTop;
+    var height = d.offsetHeight;
+
+    if (offset > 270) {
+      var lang = document.getElementById('language');
+
+      if (!lang.hasAttribute('class', 'show')) {
+        document.getElementById('language').setAttribute('class', 'show');
+      }
+    }
+};
 </script>
