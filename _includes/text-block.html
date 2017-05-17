@@ -1,0 +1,26 @@
+{% for string_hash in site.data.strings reversed %}
+{% assign lang = string_hash[0] %}
+{% assign stringSize = string | size %}
+
+{% if stringSize == 0 %}
+  {% assign item = site.data.strings[lang][include.section] %}
+{% else %}
+  {% assign item = site.data.strings[lang][include.section][string] %}
+{% endif %}
+
+<div class="{{lang}}">
+  <h3>
+    {% if item.title %}
+      {{ item.title }}
+    {% endif %}
+  </h3>
+  <p>
+    {{ item.p | newline_to_br }}
+    {% if item.a %}
+    <a target="_blank"
+      href="{{item.a.href}}">
+    {{ item.a.label }}</a>
+    {% endif %}
+  </p>
+</div>
+{% endfor %}
