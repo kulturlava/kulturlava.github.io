@@ -1,28 +1,25 @@
 .header {
   text-align: center;
+  height: 35vh;
 
   .logo {
-    @include col(12,12);
-    margin: 2em 0 0 0;
+    height: 70%;
+    width: 100%;
+    padding-top: 7vh;
 
     a {
-      @include col(3, 24);
-      float:none;
-
-      @include media-query($on-palm) {
-        @include col(6, 24);
-        float:none;
+      img {
+        max-height: 100%;
       }
     }
   }
 
   .title {
-    @include col(12,12);
+    height: 30%;
+    width: 100%;
 
     h1 {
-      @include media-query($on-palm) {
-        font-size: 3em;
-      }
+      font-size: 7vh;
     }
   }
 }
