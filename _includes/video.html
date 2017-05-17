@@ -1,4 +1,22 @@
-<iframe src="https://player.vimeo.com/video/{{ include.id }}"
-  width="100%" height="500" frameborder="0"
-  webkitallowfullscreen mozallowfullscreen allowfullscreen>
-</iframe>
+<div id="splash"
+  style="background-image:
+  url('{{ relative_url }} /assets/img/kulturlava-splash.jpg')">
+  <div class="video">
+    <iframe src="https://player.vimeo.com/video/{{ include.id }}?api=1"
+      width="100%" height="100%" frameborder="0"
+      webkitallowfullscreen mozallowfullscreen allowfullscreen>
+    </iframe>
+  </div>
+</div>
+
+<script src="https://player.vimeo.com/api/player.js"></script>
+<script>
+  document.getElementById('splash').addEventListener('click', startVideo);
+  var iframe = document.querySelector('iframe');
+  var player = new Vimeo.Player(iframe);
+
+  function startVideo() {
+    this.setAttribute('class', 'playing');
+    player.play();
+  }
+</script>
