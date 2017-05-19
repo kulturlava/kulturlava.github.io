@@ -31,6 +31,10 @@ form {
   @include media-query($on-palm) {
     width: 90%;
     overflow-x:hidden;
+
+    &:after {
+      display: none;
+    }
   }
 
   div {
@@ -79,6 +83,7 @@ form {
   input[type="checkbox"] {
     opacity: 0;
     position: absolute;
+    left: 0;
 
     & + label {
       display: block;
