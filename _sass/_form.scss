@@ -3,6 +3,26 @@ h1.form-header {
 }
 
 form {
+
+  @include bg-image(
+    $img:"../assets/img/bg/bg-detail.svg",
+    $size: 170px,
+    $left: -240px,
+    $top: 500px
+  );
+
+  @include bg-image(
+    $img:"../assets/img/bg/bg-detail.svg",
+    $size: 200px,
+    $right: -240px,
+    $top: 1200px,
+    $after: true
+  );
+
+  &:before, &:after {
+    z-index: 0;
+  }
+
   margin: 0 auto;
   width: 70%;
   font-family: $brand-font-family;

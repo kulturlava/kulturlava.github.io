@@ -29,3 +29,47 @@
 @mixin col-offset($col, $sum) {
   margin-left: percentage($col/$sum);
 }
+
+@mixin bg-image($img, $size, $left:false, $right:false, $top:false, $bottom:false, $after:false) {
+  position: relative;
+
+  @include media-query($on-palm) {
+    overflow-x: hidden;
+  }
+
+  @if ($after) {
+    &:after {
+      @include bg-image-content($img, $size, $left, $right, $top, $bottom, $after);
+    }
+  }
+  @else {
+    &:before {
+      @include bg-image-content($img, $size, $left, $right, $top, $bottom, $after);
+    }
+  }
+}
+
+@mixin bg-image-content($img, $size, $left:false, $right:false, $top:false, $bottom:false, $after:false) {
+  content: '';
+  display: block;
+  position: absolute;
+  z-index: -1;
+  background-image: url($img);
+  background-repeat: no-repeat;
+  @if ($left) {
+    left: $left;
+  }
+  @if ($right) {
+    right: $right - ($size / 2);
+  }
+
+  @if ($top) {
+    top: $top;
+  }
+  @if ($bottom) {
+    bottom: $bottom;
+  }
+
+  width: $size;
+  height: $size;
+}

@@ -93,6 +93,8 @@ section {
   h2 {
     text-align: center;
     margin-top: 0.5em;
+    float: left;
+    width: 100%;
   }
 
   div {
@@ -153,6 +155,17 @@ section {
   }
 
   &.preamble {
+    @include bg-image(
+      $img: "../assets/img/bg/bg-item.svg",
+      $size: 400px,
+      $right: -250px,
+      $top: -400px
+    );
+
+    &:before {
+      transform:rotate(-90deg);
+    }
+
     p {
       font-family: $brand-font-family;
       font-size: 1.5em;
@@ -160,8 +173,69 @@ section {
   }
 
   &.date {
+    @include bg-image(
+      $img:"../assets/img/bg/bg-date.svg",
+      $size: 400px,
+      $left: -400px,
+      $top: -200px
+    );
+
     h3 {
       font-size: 3em;
+    }
+  }
+
+  &.join {
+    @include bg-image(
+      $img:"../assets/img/bg/bg-item.svg",
+      $size: 500px,
+      $left: -320px,
+      $top: 400px
+    );
+  }
+
+  &.membership {
+    @include bg-image(
+      $img:"../assets/img/bg/bg-item-2.svg",
+      $size: 500px,
+      $right: -320px,
+      $top: 0px
+    );
+  }
+
+  &.food {
+    color: white;
+
+    @include bg-image(
+      $img:"../assets/img/bg/bg-food.svg",
+      $size: 1300px,
+      $left: -130px,
+      $top: -170px,
+      $after: true
+    );
+
+    @include media-query($on-palm) {
+      h2 {
+        margin-top: 1em;
+      }
+
+      &:after {
+        position: relative;
+        max-height: 660px;
+        width: 100vw;
+        left: 0;
+        top: 0px;
+        background-size: cover;
+        background-position: center;
+      }
+    }
+  }
+
+  &.accomodation {
+    margin-top: 6em;
+
+    @include media-query($on-palm) {
+      margin-top: 0;
     }
   }
 }
@@ -265,6 +339,28 @@ footer.site-footer {
     #active {
       color: $brand-color-alt;
     }
+  }
+}
+
+.bg-bottom {
+  background-color: $brand-color;
+  position: relative;
+  margin-top: 5em;
+  padding-top: 4em;
+
+  &:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background-image: url("../assets/img/bg/bg-border.svg");
+    background-size: cover;
+    background-repeat-x: repeat;
+    background-repeat-y: no-repeat;
+    width: 100%;
+    left: 0;
+    height: 400px;
+    z-index: -1;
+    top: -50px;
   }
 }
 
