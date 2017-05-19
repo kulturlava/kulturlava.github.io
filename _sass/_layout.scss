@@ -204,6 +204,32 @@ section {
 footer.site-footer {
   text-align: center;
   margin-top: 4em;
+
+  .sponsors {
+    width: 100%;
+    display: inline-block;
+    margin: 1em 0;
+
+    div {
+      @include col(2,12);
+
+      @include media-query($on-palm) {
+          @include col(4,12);
+        }
+
+      &:first-of-type {
+        @include col-offset(3,12);
+
+        @include media-query($on-palm) {
+          margin-left: 0;
+        }
+      }
+
+      img {
+        max-height: 100px;
+      }
+    }
+  }
 }
 
 #language {

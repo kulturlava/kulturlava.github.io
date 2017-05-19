@@ -1,15 +1,24 @@
 <footer class="site-footer">
-
   <div class="wrapper">
-
+    <div class="sponsors">
+      <div>
+        <img src="{{ relative_url }} /assets/img/sponsors/kulturens.jpg">
+      </div>
+      <div>
+        <img src="{{ relative_url }} /assets/img/sponsors/metnuoret.png">
+      </div>
+      <div>
+        <img src="{{ relative_url }} /assets/img/sponsors/nyamodigheter.png">
+      </div>
+    </div>
     <div class="credits">
-        {% for lang in page.lang  %}
-            {% if site.data.strings[lang].credits %}
-                {{ site.data.strings[lang].credits }} <br>
-            {% endif %}
-        {% endfor %}
+      {% for lang in page.lang  %}
+        {% if site.data.strings[lang].credits %}
+          {{ site.data.strings[lang].credits }} <br>
+        {% endif %}
+      {% endfor %}
     </div>
 
     <h3 class="footer-heading">{{ site.title | escape }}</h3>
-
+  </div>
 </footer>
