@@ -170,6 +170,6 @@ form:
         type: check
     button: Lähetä
     thanks:
-        h1:
-        p:
+        h1: Kiitos!
+        p: Olet nyt ilmottautunu, älä unoha maksaa osallistumisesta
 credits:
