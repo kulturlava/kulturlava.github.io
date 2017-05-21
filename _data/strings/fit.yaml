@@ -169,4 +169,7 @@ form:
         label: Mie halvaan olle fynktionääri
         type: check
     button: Lähetä
-credits: 
+    thanks:
+        h1:
+        p:
+credits:

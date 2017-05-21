@@ -1,10 +1,17 @@
 <h1 class="form-header">{{ site.data.strings.sv.form.title }}
   / {{ site.data.strings.fit.form.title }}</h1>
-<form id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyE7MLQTdcvf-ehGFXItK_UogoKuEKf8wRm7PKqF-87SVQSTsb3/exec">
+<form class="" id="gform" method="POST" action="https://script.google.com/macros/s/AKfycbyE7MLQTdcvf-ehGFXItK_UogoKuEKf8wRm7PKqF-87SVQSTsb3/exec">
 {% for string_hash in site.data.strings.sv.form.items %}
   {% assign string = string_hash[0] %}
   {% include input-text.html string=string %}
 {% endfor %}
+  <div class="invalid" id="email-invalid">
+    <h3>Kontrollera att din e-post är korrekt.</h3>
+  </div>
   <button type="submit">{{ site.data.strings.sv.form.button }}
   / {{ site.data.strings.fit.form.button }}</button>
 </form>
+<div class="thanks" id="thankyou_message">
+  <h1>{{ site.data.strings.sv.form.thanks.h1 }}</h1>
+  <p>{{ site.data.strings.sv.form.thanks.p }}</p>
+</div>

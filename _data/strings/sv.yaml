@@ -171,4 +171,7 @@ form:
         label: Jag vill vara funktionär
         type: check
     button: Skicka in
+    thanks:
+        h1: Tack!
+        p: Du är nu anmäld. Glöm inte att betala medlemsavgiften!
 credits: I samarbete med fortsättningskursen i meänkieli vid Umeå universitet.

@@ -27,6 +27,7 @@ form {
   width: 70%;
   font-family: $brand-font-family;
   text-align: center;
+  max-height: 2000px;
 
   @include media-query($on-palm) {
     width: 90%;
@@ -147,5 +148,26 @@ form {
       color: $brand-color-alt;
       cursor: pointer;
     }
+  }
+
+  .invalid {
+    color: $brand-color-alt;
+    display: none;
+  }
+}
+form.submitted {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 2s;
+}
+
+.thanks {
+  display: none;
+  width: 100%;
+  text-align: center;
+  margin-top: 1em;
+
+  h1 {
+    color: $brand-color-alt;
   }
 }
