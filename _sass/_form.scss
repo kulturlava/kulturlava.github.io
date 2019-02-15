@@ -64,7 +64,8 @@ form {
   }
 
 
-  input[type="text"] {
+  input[type="text"],
+  input[type="email"] {
     width: 100%;
     text-align: center;
     font-size: 1.5em;

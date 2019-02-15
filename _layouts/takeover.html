@@ -1,0 +1,102 @@
+---
+layout: takeover
+---
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {% include head.html %}
+
+  <body class="sv takeover-body">
+    <main id="takeover" class="takeover" aria-label="Content"
+      style="background-image:
+          url('{{ relative_url }} /assets/img/kulturlava-main.jpg')">
+      </div>
+      <div class="takeover-title">
+        <h1>Aurinkofesti</h1>
+        <h2>2019</h2>
+      </div>
+      <div class="takeover-readMore">
+        <h3 id="readMore">
+          {{ site.data.strings.sv.takeover.more }}
+          /
+          {{ site.data.strings.fit.takeover.more }}
+        </h3>
+      </div>
+    </main>
+
+    <div class="takeover-sub">
+    <div class="wrapper">
+      <h2>
+        <span class="sv">{{ site.data.strings.sv.takeover.signup }}</span>
+        <span class="lang-split">/</span>
+        <span class="fit">{{ site.data.strings.fit.takeover.signup }}</span>
+    </h2>
+
+      <form id="newsletter"
+      action="https://kulturlava.us16.list-manage.com/subscribe/post" method="POST">
+        <input type="hidden" name="u" value="c580539caeffcc1edb8059dd1">
+        <input type="hidden" name="id" value="460c80edb2">
+        <input type="hidden" name="MERGE1" id="MERGE1" value="">
+        <input type="hidden" name="MERGE2" id="MERGE2" value="">
+        <div>
+          <label class="sv" for="name">
+            {{ site.data.strings.sv.form.items.name.label }}
+          </label>
+          <label class="fit" for="name">
+            {{ site.data.strings.fit.form.items.name.label }}
+          </label>
+          <input type="text" name="name" id="name" size="25" value="">
+        </div>
+        <div>
+          <label class="sv" for="MERGE0">
+            {{ site.data.strings.sv.form.items.mail.label }}
+          </label>
+          <label class="fit" for="MERGE0">
+            {{ site.data.strings.fit.form.items.mail.label }}
+          </label>
+          <input type="email" autocapitalize="off" autocorrect="off" name="MERGE0" id="MERGE0" size="25" value="">
+        </div>
+        <div class="invalid" id="email-invalid">
+          <h3>Kontrollera att din e-post är korrekt.</h3>
+        </div>
+        <div class="invalid" id="empty-fields">
+          <h3>Du behöver fylla i alla fält!</h3>
+        </div>
+        <button type="submit">{{ site.data.strings.sv.form.button }}
+        / {{ site.data.strings.fit.form.button }}</button>
+      </form>
+      <div class="thanks" id="thanks">
+          <h1>{{ site.data.strings.sv.form.thanks.h1 }} /
+            {{ site.data.strings.fit.form.thanks.h1 }}
+          </h1>
+        </div>
+
+      <div class="social">
+        <a target="_blank"
+          href="https://www.facebook.com/Kulturf%C3%B6reningen-Lava-431753280506622/">
+          <img src="{{ relative_url }} /assets/img/fb.png" alt="facebook">
+          <h2>Facebook</h2>
+        </a>
+      </div>
+
+      <footer class="takeover-footer">
+        <div class="wrapper">
+          <img src="{{ relative_url }} /assets/img/logo-text-white.png"
+            alt="Kulturföreningen Lava">
+          <h3 class="footer-heading">{{ site.email | escape }}</h3>
+        </div>
+      </footer>
+    </div>
+    </div>
+
+    <div id="language">
+      <button value="sv" id="active">Svenska</button>
+      / <button value="fit">Meänkieli</button>
+    </div>
+    <script data-cfasync="false" type="text/javascript"
+      src="{{ relative_url }} /assets/js/newsletter-signup-handler.js">
+    </script>
+    {% include scroll-js.html %}
+  </body>
+
+</html>

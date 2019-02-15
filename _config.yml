@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Kulturföreningen Lava
-email: jens@dreamtinsteractive.se
+email: kulturlava@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Kulturföreningen Lava arrangerar Solfesten 2017 i Ekfors, Tornedalen.
+  Aurinkofesti 2019 arrangeras av Kulturföreningen Lava.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  jensborje

@@ -173,3 +173,6 @@ form:
         h1: Kiitos!
         p: Olet nyt ilmottautunu, älä unoha maksaa osallistumisesta
 credits:
+takeover:
+    more: Jutella
+    signup: Kirjaudu uutiskirjeemme
