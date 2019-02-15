@@ -1,0 +1,150 @@
+.takeover {
+  position: relative;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-position: 10% 60%;
+  background-repeat: no-repeat;
+  background-color: $brand-color;
+  background-blend-mode: luminosity;
+
+  @include media-query($on-laptop) {
+    background-position: 25% 60%;
+  }
+
+  @include media-query($on-palm) {
+    background-size: cover;
+    background-position: 40% 60%;
+  }
+
+  &:before {
+    content: "";
+    background-image: url(../assets/img/bg/bg-takeover.png);
+    background-position: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+
+  }
+}
+
+.takeover-title {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  font-size: 1.5em;
+  font-weight: bold;
+
+  @include media-query($on-palm) {
+    font-size: 1.2em;
+  }
+
+  > * {
+    margin-bottom: 0;
+  }
+
+  h1 {
+
+  }
+}
+
+.takeover-readMore {
+  position: absolute;
+  bottom: 5.5em;
+  font-size: 1.3em;
+  text-align: center;
+
+  @include media-query($on-palm) {
+    bottom: 4em;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:after {
+    content: ">";
+    font-family: $brand-font-family;
+    font-size: 2em;
+    display: block;
+    position: absolute;
+    bottom: -0.4em;
+    left: 50%;
+    right: 50%;
+    transform: rotate(90deg);
+  }
+}
+
+.takeover-image {
+  position: absolute;
+  display: block;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.takeover-sub {
+  background-color: $brand-color;
+  color: white;
+  padding-top: 4em;
+
+  @include media-query($on-palm) {
+    padding-top: 2em;
+  }
+
+  .wrapper h2 {
+    text-align: center;
+    line-height: 1em;
+  }
+
+  form:after {
+    display: none;
+  }
+
+  button {
+    background-color: lighten($brand-color, 5);
+    color: white;
+    font-size: 2.5em;
+    padding: 0.5em;
+
+    &:active {
+      background-color: lighten($brand-color, 8);
+    }
+  }
+}
+
+.social a {
+  font-size: 0.7em;
+  color: white;
+}
+
+.takeover-footer {
+  text-align: center;
+  padding-bottom: 8em;
+
+  img {
+    width: 50%;
+    max-width: 100px;
+  }
+
+  .footer-heading {
+    margin-top: 1em;
+  }
+}
+
+#language {
+  background-color: white;
+  color: $brand-color;
+}
+
+.lang-split {
+  @include media-query($on-palm) {
+    display: none;
+  }
+}
