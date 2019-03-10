@@ -1,0 +1,114 @@
+.splash {
+    position: relative;
+    height: 100vh;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: 10% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba($brand-color, 0.5);
+    background-blend-mode: luminosity;
+
+    @include media-query($on-laptop) {
+      background-position: 25% 60%;
+    }
+
+    @include media-query($on-palm) {
+      background-size: cover;
+      background-position: 40% 60%;
+    }
+
+    &:before {
+      content: "";
+      background-image: url(../assets/img/bg/bg-splash.png);
+      background-position: 40%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 100vh;
+      width: 100%;
+      position: absolute;
+    }
+}
+
+
+.splash-title {
+  position: relative;
+  text-align: center;
+  width: 90%;
+  font-size: 1.5em;
+  font-weight: bold;
+  transform: rotate(-10deg);
+
+  @include media-query($on-palm) {
+    font-size: 1.2em;
+  }
+
+  > * {
+    margin-bottom: 0;
+    // text-shadow: 0px 3px 10px black;
+  }
+
+  h1 {
+    color: $brand-color-alt;
+  }
+}
+
+.splash-readMore {
+  position: absolute;
+  bottom: 5.5em;
+  font-size: 1.3em;
+  text-align: center;
+
+  @include media-query($on-palm) {
+    bottom: 4em;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &:after {
+    content: ">";
+    font-family: $brand-font-family;
+    font-size: 2em;
+    display: block;
+    position: absolute;
+    bottom: -0.4em;
+    left: 50%;
+    right: 50%;
+    transform: rotate(90deg);
+  }
+
+  h3 {
+    text-shadow: 0px 3px 10px black;
+  }
+}
+
+.shortcut {
+  background-image: url(../assets/img/bg/bg-detail.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 580px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  ul {
+    margin: 0;
+    li {
+      list-style: none;
+      a {
+        font-size: 3em;
+        color: white;
+        font-family: $brand-font-family;
+
+      }
+    }
+
+  }
+}

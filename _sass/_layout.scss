@@ -155,17 +155,6 @@ section {
   }
 
   &.preamble {
-    @include bg-image(
-      $img: "../assets/img/bg/bg-item.svg",
-      $size: 400px,
-      $right: -250px,
-      $top: -400px
-    );
-
-    &:before {
-      transform:rotate(-90deg);
-    }
-
     p {
       font-family: $brand-font-family;
       font-size: 1.5em;
@@ -254,7 +243,7 @@ section {
   margin: 2em 0;
   a {
     display: inline-block;
-    color: lighten($text-color, 40);
+    color: $text-color;
 
     &:hover {
       text-decoration: none;
@@ -270,40 +259,10 @@ section {
       line-height: 2em;
       vertical-align: middle;
       margin-left: 0.5em;
+      text-decoration: underline;
     }
   }
 
-}
-
-footer.site-footer {
-  text-align: center;
-  margin-top: 4em;
-
-  .sponsors {
-    width: 100%;
-    display: inline-block;
-    margin: 1em 0;
-
-    div {
-      @include col(2,12);
-
-      @include media-query($on-palm) {
-          @include col(4,12);
-        }
-
-      &:first-of-type {
-        @include col-offset(3,12);
-
-        @include media-query($on-palm) {
-          margin-left: 0;
-        }
-      }
-
-      img {
-        max-height: 100px;
-      }
-    }
-  }
 }
 
 #language {

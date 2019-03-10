@@ -1,6 +1,16 @@
+<div class="social">
+  <a target="_blank"
+    href="https://www.facebook.com/Kulturf%C3%B6reningen-Lava-431753280506622/">
+    <img src="{{ relative_url }} /assets/img/fb.png" alt="facebook">
+    <h2>Facebook</h2>
+  </a>
+</div>
+
+{% include newsletter.html %}
+
 <footer class="site-footer">
   <div class="wrapper">
-    <div class="sponsors">
+    <!-- <div class="sponsors">
       <div>
         <img src="{{ relative_url }} /assets/img/sponsors/kulturens.jpg">
       </div>
@@ -10,7 +20,11 @@
       <div>
         <img src="{{ relative_url }} /assets/img/sponsors/nyamodigheter.png">
       </div>
-    </div>
+    </div> -->
+    <img src="{{ relative_url }} /assets/img/logo-text-white.png"
+      alt="Kulturföreningen Lava">
+    <h3 class="footer-heading">{{ site.email | escape }}</h3>
+
     <div class="credits">
       {% for lang in page.lang  %}
         {% if site.data.strings[lang].credits %}
@@ -18,7 +32,5 @@
         {% endif %}
       {% endfor %}
     </div>
-
-    <h3 class="footer-heading">{{ site.title | escape }}</h3>
   </div>
 </footer>
