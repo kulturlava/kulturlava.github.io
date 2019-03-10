@@ -1,24 +1,23 @@
 title: Aurinkofesti
-subtitle: >
-          "Met siivoama lammastallin ja lainaama PA:n"
 preamble:
     p: >
         Justhaans sen met tehemä! Kylttyyriföreninki Lava kuttuu teät kaikki
-        viettähmään juhanusta Tornionlaakson keskiyön auringon alle. Yhteisin
-        voimin tehemä juhanusaaton mihin kuuluu mysiikkiä, tansia, leikkiä,
-        saunomista, juhannusbyffé ja fästit mikkä myöhään unohethaan!
+        viettähmään juhanusta Tornionlaakson keskiyön auringon alle. 
 date:
-    title: Juhanus 23/6
+    title: Juhanus 21-22/6
     p : >
         Juhanusaatto on kesäkuun 23 päivä ja fästit alkava aamupäivälä ja
-        jatkuva niin pikthään ko jaksethaan pittää silmät auki. Tänne saattaa
-        tulla jo ennen fästiä jos halvaa ja ei täältä tartte olla hopussa
-        lähtehmään. Voima työstää fästiä pari päivää sen jälkhiin.
+        jatkuva niin pikthään ko jaksethaan pittää silmät auki.
 location:
-    title: Puostijärven Alapää
+    title: Täränönsaari
     p: >
         Fästit piethään Bengt AIlin tykönä Ekforsissa. Hään assuu Puostijärven
         rannala, pari penikulmaa Matarengista.
+inclusive:
+    title: Kulttuuri kaikille
+    p: >
+        Kirjoitamme lyhyesti, että olemme kaikenikäisille. Lasten teatteri,
+        musiikkiteokset, toinen esimerkki tai muu, mitä löydämme.
 join:
     title: Tule sieki fölhjyyn
     directions:
@@ -176,3 +175,11 @@ credits:
 takeover:
     more: Jutella
     signup: Kirjaudu uutiskirjeemme
+heh:
+    title: Medlemskap
+    preamble:
+        p: >
+            Justhaans sen met tehemä! Kylttyyriföreninki Lava kuttuu teät kaikki
+            viettähmään juhanusta Tornionlaakson keskiyön auringon alle. Yhteisin
+            voimin tehemä juhanusaaton mihin kuuluu mysiikkiä, tansia, leikkiä,
+            saunomista, juhannusbyffé ja fästit mikkä myöhään unohethaan!

@@ -1,24 +1,23 @@
-title: Solfesten
-subtitle: >
-          "Vi städar ur fårstallet och lånar in ett PA"
+title: Aurinkofesti
 preamble:
     p: >
         Det är precis vad vi ska göra! Kulturföreningen Lava bjuder in er
         alla till midsommarfirande under tornedalens midnattssol.
-        Tillsammans skapar vi en midsommarafton med musik, dans, lek, bastu,
-        midsommarbuffé och ett firande vi sent kommer glömma.
 date:
-    title: Midsommar 23/6
+    title: Midsommar 21-22/6
     p : >
         Midsommarafton är den 23 juni och firandet kommer börja på förmiddagen
-        och fortsätta tills vi inte längre orkar hålla ögonen öppna. Det går
-        även bra att komma dagarna innan och stanna gärna kvar och bearbeta
-        aftonen några dagar efteråt.
+        och fortsätta tills vi inte längre orkar hålla ögonen öppna.
 location:
-    title: Ekfors, Övertorneå
+    title: Tärendöholmen
     p: >
         Firandet kommer äga rum på Bengt Ailis gård i Ekfors. Gården ligger vid
         sjön Puostijärvi, två mil från Övertorneå.
+inclusive:
+    title: Kultur för alla
+    p: >
+        Vi skriver kort om att vi är för alla åldrar. Barnteater, musikakter,
+        ett annat exempel eller annat som vi kommer att hitta på.
 join:
     title: Häng med
     directions:
@@ -178,3 +177,10 @@ credits: I samarbete med fortsättningskursen i meänkieli vid Umeå universitet
 takeover:
     more: Berätta mer
     signup: Skriv upp dig på vårt nyhetsbrev!
+heh:
+    preamble:
+        p: >
+            Det är precis vad vi ska göra! Kulturföreningen Lava bjuder in er
+            alla till midsommarfirande under tornedalens midnattssol.
+            Tillsammans skapar vi en midsommarafton med musik, dans, lek, bastu,
+            midsommarbuffé och ett firande vi sent kommer glömma.
