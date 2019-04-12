@@ -18,6 +18,16 @@ inclusive:
     p: >
         Kirjoitamme lyhyesti, että olemme kaikenikäisille. Lasten teatteri,
         musiikkiteokset, toinen esimerkki tai muu, mitä löydämme.
+about:
+    title: Meistä
+    intro:
+        title: Kulttuuriföreninki Lava
+        p: >
+            Kulttuuriföreninki Lava alotethiin kolme vuotta aikaa tarkotuksenna
+            ette laittaa kulttuuritapahtumia Tornionlaaksossa. Juhanuksen
+            aikana 2019 Kulttuuriföreninki Lava järjestää juhanusfestivaalin
+            Aurinkofesti. Föreninki järjestää festivaalin toisen kerran ette
+            säilyttää elävää kulttuuria Tornionlaaksossa. 
 join:
     title: Tule sieki fölhjyyn
     directions:
@@ -175,11 +185,3 @@ credits:
 takeover:
     more: Jutella
     signup: Kirjaudu uutiskirjeemme
-heh:
-    title: Medlemskap
-    preamble:
-        p: >
-            Justhaans sen met tehemä! Kylttyyriföreninki Lava kuttuu teät kaikki
-            viettähmään juhanusta Tornionlaakson keskiyön auringon alle. Yhteisin
-            voimin tehemä juhanusaaton mihin kuuluu mysiikkiä, tansia, leikkiä,
-            saunomista, juhannusbyffé ja fästit mikkä myöhään unohethaan!
