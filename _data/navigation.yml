@@ -1,0 +1,22 @@
+nav:
+
+- title: Hem / Häntä
+  url: /
+
+- title: Biljeter / Liput
+  url: tickets.html
+
+- title: Akter & Program / Näyttelijä
+  url: program.html
+
+- title: Platsen / Paikka
+  url: location.html
+
+- title: Info / Tiedot
+  url: info.html
+
+- title: Funktionär / Toimihenkilö
+  url: volunteer.html
+
+- title: Om oss / Meistä
+  url: about.html
