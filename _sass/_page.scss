@@ -1,10 +1,21 @@
 .page-cover {
-  height: 70vh;
+  height: 80vh;
   width: 100%;
   background-size: cover;
   background-position: center;
   background-color: rgba($brand-color, 0.5);
   background-blend-mode: luminosity;
+
+  &:before {
+      content: "";
+      background-image: url(../assets/img/bg/bg-splash.png);
+      background-position: 40%;
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 60vh;
+      width: 100%;
+      position: absolute;
+    }
 }
 
 .acts {
