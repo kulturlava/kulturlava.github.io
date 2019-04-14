@@ -241,7 +241,7 @@ form:
     thanks:
         h1: Tack!
         p: Du är nu anmäld. Glöm inte att betala in avgiften!
-credits: I samarbete med fortsättningskursen i meänkieli vid Umeå universitet.
+credits:
 takeover:
     more: Berätta mer
     signup: Skriv upp dig på vårt nyhetsbrev!
