@@ -4,19 +4,19 @@ nav:
   url: /
 
 - title: Biljeter / Liput
-  url: tickets.html
+  url: /tickets/
 
 - title: Akter & Program / Näyttelijä
-  url: program.html
+  url: /program/
 
 - title: Platsen / Paikka
-  url: location.html
+  url: /location/
 
 - title: Info / Tiedot
-  url: info.html
+  url: /info/
 
 - title: Funktionär / Toimihenkilö
-  url: volunteer.html
+  url: /volunteer/
 
 - title: Om oss / Meistä
-  url: about.html
+  url: /about/

@@ -17,7 +17,31 @@ layout: page
         {% include text.html section=page.string %}
       </div>
     </main>
+    {% if page.acts %}
+    <div class="acts" id="acts">
+      {% for act in page.acts %}
+      <div class="act">
+        <div class="act-wrapper"
+          style="background-image:
+          url('{{ absolute_url }} {{ act.img_url }}')">
+        </div>
+        <div class="act-content">
+          <div class="wrapper">
+          <section>
+            {% assign section = "act" %}
+            {% include text-block.html section=section string=act.act %}
+          </section>
+          </div>
+          <div class="act-contentClose">Stäng</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
 
     {% include footer.html %}
+    <script data-cfasync="false" type="text/javascript"
+      src="{{ relative_url }} /assets/js/act.js">
+    </script>
   </body>
 </html>

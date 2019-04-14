@@ -1,10 +1,10 @@
 {% for lang in page.lang  %}
-{% assign stringSize = string | size %}
+{% assign stringSize = include.string | size %}
 
 {% if stringSize == 0 %}
   {% assign item = site.data.strings[lang][include.section] %}
 {% else %}
-  {% assign item = site.data.strings[lang][include.section][string] %}
+  {% assign item = site.data.strings[lang][include.section][include.string] %}
 {% endif %}
 
 <div class="{{lang}}">

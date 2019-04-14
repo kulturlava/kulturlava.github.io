@@ -28,6 +28,20 @@ about:
             Kulturföreningen Lava midsommarfestivalen Aurinkofesti. Festivalen
             arrangeras av föreningen för andra gången för att bibehålla levande
             kultur i Tornedalen.
+program:
+    title: Program & akter
+    intro:
+        p: >
+            På Aurinkofesti finns något för alla. Vi släpper nya akter allt
+            eftersom.
+act:
+    vaart:
+        title: Väärt
+        p: >
+            Med inspiration från sitt kulturella arv i norra Norrland tog Väärt
+            oss med storm i början av 10-talet. På midsommarafton spelar Väärt
+            sin indiepop/rock och trollbinder oss med sånger som på ett unikt
+            sätt skildrar den arktiska naturen, dess människor och livsvillkor.
 join:
     title: Häng med
     directions:

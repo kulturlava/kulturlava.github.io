@@ -27,7 +27,22 @@ about:
             ette laittaa kulttuuritapahtumia Tornionlaaksossa. Juhanuksen
             aikana 2019 Kulttuuriföreninki Lava järjestää juhanusfestivaalin
             Aurinkofesti. Föreninki järjestää festivaalin toisen kerran ette
-            säilyttää elävää kulttuuria Tornionlaaksossa. 
+            säilyttää elävää kulttuuria Tornionlaaksossa.
+program:
+    title: Ojelma ja näytökset
+    intro:
+        p: >
+            Aurinkofestissä oon kaikile jotaki. Met löysäämä uusia näytöksiä
+            syrjäämyöten.
+act:
+    vaart:
+        title: Väärt
+        p: >
+            Inspirasuunila heän Pohjosnorrlantin kultturellistä perintheestä
+            Väärt iski meihiin ko salhaama 10-luvun alussa. Juhanusaattona
+            Väärt pellaa heän indiepoppia/rokkia ja ihastuttaa meitä lauluila
+            jokka ynikillä laila kuvvaavat arktista luontoa, sen ihmisiä ja
+            elämisolosuhtheita.
 join:
     title: Tule sieki fölhjyyn
     directions:
