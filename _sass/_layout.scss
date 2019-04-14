@@ -89,6 +89,28 @@ section {
       }
     }
 
+    &.preamble {
+      p {
+        font-family: $brand-font-family;
+        font-size: 1.5em;
+      }
+    }
+
+    &.date {
+      h3 {
+        font-size: 3em;
+      }
+
+      &.sv {
+        @include bg-image(
+          $img:"../assets/img/bg/bg-date.svg",
+          $size: 400px,
+          $left: -400px,
+          $top: -200px
+        );
+      }
+    }
+
     h2 {
       text-align: inherit;
     }
@@ -124,25 +146,7 @@ section {
       background-size: cover;
   }
 
-  &.preamble {
-    p {
-      font-family: $brand-font-family;
-      font-size: 1.5em;
-    }
-  }
-
-  &.date {
-    @include bg-image(
-      $img:"../assets/img/bg/bg-date.svg",
-      $size: 400px,
-      $left: -400px,
-      $top: -200px
-    );
-
-    h3 {
-      font-size: 3em;
-    }
-  }
+  
 
   &.join {
     @include bg-image(

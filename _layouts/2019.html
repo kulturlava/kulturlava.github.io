@@ -16,26 +16,33 @@ layout: 2019
       </div>
       <div class="splash-readMore">
         <h3 id="readMore">
-          {{ site.data.strings.sv.takeover.more }}
+          {{ site.data.strings.sv.more }}
           /
-          {{ site.data.strings.fit.takeover.more }}
+          {{ site.data.strings.fit.more }}
         </h3>
       </div>
     </div>
 
     <main class="page-content" aria-label="Content">
       <div class="wrapper">
-        {% include text.html section="preamble" %}
-        {% include text.html section="date" %}
-        {% include text.html section="location" %}
-        {% include text.html section="inclusive" %}
+        {% include text.html section="home" %}
       </div>
     </main>
 
     <div class="shortcut">
-      <ul>
-        <li><a>Biljetter</a></li>
-      </ul>
+      <ul id="">
+          {% for item in site.data.navigation.nav %}
+          {% if item.feature %}
+          <li>
+          {% if item.external %}
+          <a href="{{ item.url }}">{{ item.title }}</a>
+          {% else %}
+          <a href="{{site.url}}{{ item.url }}">{{ item.title }}</a>
+          {% endif %}
+          </li>
+          {% endif %}
+          {% endfor %}
+        </ul>
     </div>
 
     {% include footer.html %}

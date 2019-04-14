@@ -7,7 +7,7 @@
   {% assign item = site.data.strings[lang][include.section][include.string] %}
 {% endif %}
 
-<div class="{{lang}}">
+<div class="{{lang}} {{ include.string }}">
   <h3>
     {% if item.title %}
       {{ item.title }}

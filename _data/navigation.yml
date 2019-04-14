@@ -4,13 +4,17 @@ nav:
   url: /
 
 - title: Biljeter / Liput
-  url: /tickets/
+  url: http://billetto.se/
+  external: true
+  feature: true
 
 - title: Akter & Program / Näyttelijä
   url: /program/
+  feature: true
 
 - title: Platsen / Paikka
   url: /location/
+  feature: true
 
 - title: Info / Tiedot
   url: /info/

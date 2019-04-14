@@ -1,23 +1,29 @@
 title: Aurinkofesti
-preamble:
-    p: >
-        Justhaans sen met tehemä! Kylttyyriföreninki Lava kuttuu teät kaikki
-        viettähmään juhanusta Tornionlaakson keskiyön auringon alle. 
-date:
-    title: Juhanus 21-22/6
-    p : >
-        Juhanusaatto on kesäkuun 23 päivä ja fästit alkava aamupäivälä ja
-        jatkuva niin pikthään ko jaksethaan pittää silmät auki.
-location:
-    title: Täränönsaari
-    p: >
-        Fästit piethään Bengt AIlin tykönä Ekforsissa. Hään assuu Puostijärven
-        rannala, pari penikulmaa Matarengista.
-inclusive:
-    title: Kulttuuri kaikille
-    p: >
-        Kirjoitamme lyhyesti, että olemme kaikenikäisille. Lasten teatteri,
-        musiikkiteokset, toinen esimerkki tai muu, mitä löydämme.
+more: Selitä lissää
+home:
+    preamble:
+        p: >
+            Kulttuuriföreninki Lava kuttuu vuen aurinkosiimphaan
+            juhanusfestivaahliin! Aurinkofesti oon kansanfesti kaikile ja kahtena
+            päivänä met halvaama tansata, laulaa ja skoolata yhessä teän kansa.
+    date:
+        title: Juhanus 20-21/6
+        p : >
+            Met köytämä färikhäitä kransia, nostama juhanustangon, laulama pikku
+            sammakoista ja tansaama ympäri. Siittä tullee mahtava
+            juhanusjuhliminen!
+    location:
+        title: Täränönsaari
+        p: >
+            Met aukasemma portit festipaikhaan Täräntöholmile! Festipaikka jossako
+            kaks väylää kohtaavat oon jo 50-luvulta asti ollu itylli musikile,
+            festile ja kohtaamisille.
+    inclusive:
+        title: Kulttuuri kaikille
+        p: >
+            Aurinkofestilä oon jotaki niin suurile ko pienile. Sielä tullee olheen
+            svängaavia livepäntiä, jännittäviä työpajoja, perheteatteria ja
+            filminäyttelyjä.
 about:
     title: Meistä
     intro:

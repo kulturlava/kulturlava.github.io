@@ -1,23 +1,27 @@
 title: Aurinkofesti
-preamble:
-    p: >
-        Det är precis vad vi ska göra! Kulturföreningen Lava bjuder in er
-        alla till midsommarfirande under tornedalens midnattssol.
-date:
-    title: Midsommar 21-22/6
-    p : >
-        Midsommarafton är den 23 juni och firandet kommer börja på förmiddagen
-        och fortsätta tills vi inte längre orkar hålla ögonen öppna.
-location:
-    title: Tärendöholmen
-    p: >
-        Firandet kommer äga rum på Bengt Ailis gård i Ekfors. Gården ligger vid
-        sjön Puostijärvi, två mil från Övertorneå.
-inclusive:
-    title: Kultur för alla
-    p: >
-        Vi skriver kort om att vi är för alla åldrar. Barnteater, musikakter,
-        ett annat exempel eller annat som vi kommer att hitta på.
+more: Berätta mer
+home:
+    preamble:
+        p: >
+            Kulturföreningen Lava bjuder in till årets soligaste midsommarfestival!
+            Aurinkofesti är en folkfest för alla och i dagarna två vill vi dansa,
+            sjunga och skåla tillsammans med er.
+    date:
+        title: Midsommar 20-21/6
+        p : >
+            Vi binder brokiga kransar, reser midsommarstång, sjunger om grodorna
+            små och dansar i ring. Det blir ett hejdundrandes midsommarfirande!
+    location:
+        title: Tärendöholmen
+        p: >
+            Vi slår upp portarna till festplatsen Tärendöholmen! Festplatsen där
+            två älvar möts har sedan 50-talet varit en idyll för för musik, fest
+            och möten.
+    inclusive:
+        title: Kultur för alla
+        p: >
+            Aurinkofesti har något för både stora och små. Det blir svängiga
+            liveband, spännande workshops, familjeteater och filmvisning.
 about:
     title: Om oss
     intro:
