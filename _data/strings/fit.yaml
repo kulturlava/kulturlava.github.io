@@ -35,11 +35,18 @@ about:
             Aurinkofesti. Föreninki järjestää festivaalin toisen kerran ette
             säilyttää elävää kulttuuria Tornionlaaksossa.
 program:
-    title: Ojelma ja näytökset
+    title: Ohjelma ja näytökset
     intro:
         p: >
             Aurinkofestissä oon kaikile jotaki. Met löysäämä uusia näytöksiä
             syrjäämyöten.
+    program:
+        title: Ohjelma
+        p: >
+            Met päästämä kokohnaisen ohjelman tuorestai-illale ja koko
+            juhanusaatole ko aika likentellee.
+    acts:
+        title: Näytökset
 act:
     vaart:
         title: Väärt
@@ -57,6 +64,32 @@ location:
             Met aukasemma portit festipaikhaan Täräntöholmile! Festipaikka
             jossako kaks väylää kohtaavat oon jo 50-luvulta asti ollu itylli
             musikile, festile ja kohtaamisille.
+info:
+    title: Info
+    intro:
+        p: >
+            Onkos sulla kysymyksiä? Täältä sie löyät kaikki mitä sie tarttet
+            tietää ko sie tulet festivaahliin. Jos sie et ole saanu vastausta
+            sinun kysymyksheen sie saatat aina meilata meile osotheesheen:
+            kulturlava@gmail.com
+
+            Lissää informasuunia tullee.
+    camping:
+        title: Kamppinki
+        p: >
+            Kamppaa Aurinkofestissä! Sille joka halvaa olla festivaalissa niin
+            tuorestaina ko  perjantaina oon maholisuus panna ylös teltan
+            festivaalipaikan yhtheyessä.
+    volunteer:
+        title: Työväki
+        p: >
+            Auta meitä tekheen Aurinkofestistä niin aurinkosen, hauskan ja
+            juhlalisen ko suinki mennee!
+
+            Ilmota tässä jos sie olet innostunnu, niin met otama yhtheyttä
+            hetin ja selitämmä lissää: kulturlava@gmail.com
+newsletter:
+    signup: Kirjota sinun nimi meän uutispreivile!
 join:
     title: Tule sieki fölhjyyn
     directions:
@@ -171,7 +204,7 @@ form:
         label: Henkilönumero
         type: text
       mail:
-        label: Sähköposti
+        label: Sähkö-postiosote
         type: text
       phone:
         label: Telefooninumero

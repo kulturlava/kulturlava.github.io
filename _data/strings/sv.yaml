@@ -38,6 +38,13 @@ program:
         p: >
             På Aurinkofesti finns något för alla. Vi släpper nya akter allt
             eftersom.
+    program:
+        title: Program
+        p: >
+            Vi återkommer med ett helt program för torsdagskvällen och hela
+            midsommarafton när det närmar sig.
+    acts:
+        title: Akter
 act:
     vaart:
         title: Väärt
@@ -54,6 +61,31 @@ location:
             Vi slår upp portarna till festplatsen Tärendöholmen! Festplatsen
             där två älvar möts har sedan 50-talet varit en idyll för för
             musik, fest och möten.
+info:
+    title: Info
+    intro:
+        p: >
+            Undrar du över något? Här hittar du allt du behöver veta inför ditt
+            festivalbesök. Om du inte fått svar på din fråga kan du alltid
+            mejla oss på: kulturlava@gmail.com
+
+            Mer information kommer.
+    camping:
+        title: Camping
+        p: >
+            Campa på Aurinkofesti! För den som vill festivala både torsdag och
+            fredag finns möjlighet att slå upp ett tält i anslutning till
+            festivalområdet.
+    volunteer:
+        title: Funktionär
+        p: >
+            Hjälp oss att göra Aurinkofesti så solig, glad och festlig som det
+            bara går!
+
+            Anmäl ditt intresse här, så hör vi snart av oss och berättar mer:
+            kulturlava@gmail.com
+newsletter:
+    signup: Skriv upp dig på vårt nyhetsbrev!
 join:
     title: Häng med
     directions:
