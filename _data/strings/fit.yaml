@@ -1,5 +1,8 @@
-title: Aurinkofesti
-more: Selitä lissää
+splash:
+    title: Aurinkofesti
+    date: kesäkuu
+    more: Selitä lissää
+    tickets: Piljettiä
 home:
     preamble:
         p: >

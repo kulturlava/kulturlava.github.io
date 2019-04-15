@@ -3,12 +3,12 @@ nav:
 - title: Hem / Häntä
   url: /
 
-- title: Biljeter / Liput
+- title: Biljeter / Piljettiä
   url: http://billetto.se/
   external: true
   feature: true
 
-- title: Akter & Program / Näyttelijä
+- title: Akter & Program / Ohjelma ja näytökset
   url: /program/
   feature: true
 
@@ -16,7 +16,7 @@ nav:
   url: /location/
   feature: true
 
-- title: Info / Tiedot
+- title: Info / Info
   url: /info/
 
 - title: Om oss / Meistä

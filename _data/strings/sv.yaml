@@ -1,5 +1,8 @@
-title: Aurinkofesti
-more: Berätta mer
+splash:
+    title: Aurinkofesti
+    date: juni
+    more: Berätta mer
+    tickets: Biljetter
 home:
     preamble:
         p: >
