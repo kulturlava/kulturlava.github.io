@@ -1,0 +1,23 @@
+nav:
+
+- title: Hem / Häntä
+  url: /
+
+- title: Biljeter / Piljettiä
+  url: https://billetto.se/e/aurinkofesti-2019-biljetter-352446
+  external: true
+  feature: true
+
+- title: Akter & Program / Ohjelma ja näytökset
+  url: /program/
+  feature: true
+
+- title: Platsen / Paikka
+  url: /location/
+  feature: true
+
+- title: Info / Info
+  url: /info/
+
+- title: Om oss / Meistä
+  url: /about/

@@ -1,14 +1,47 @@
 ---
-layout: default
+layout: page
 ---
-<article class="post">
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
-  </header>
+  {% include head.html %}
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+  <body class="sv">
+    <div id="" class="page-cover" aria-label="Content"
+      style="background-image:
+          url('{{ relative_url }} {{ page.img_url }}')">
+    </div>
 
-</article>
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        {% include text.html section=page.string %}
+      </div>
+    </main>
+    {% if page.acts %}
+    <div class="acts" id="acts">
+      {% for act in page.acts %}
+      <div class="act">
+        <div class="act-wrapper"
+          style="background-image:
+          url('{{ absolute_url }} {{ act.img_url }}')">
+        </div>
+        <div class="act-content">
+          <div class="wrapper">
+          <section>
+            {% assign section = "act" %}
+            {% include text-block.html section=section string=act.act %}
+          </section>
+          </div>
+          <div class="act-contentClose">Stäng</div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+
+    {% include footer.html %}
+    <script data-cfasync="false" type="text/javascript"
+      src="{{ relative_url }} /assets/js/act.js">
+    </script>
+  </body>
+</html>

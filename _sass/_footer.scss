@@ -1,0 +1,38 @@
+footer.site-footer {
+  background-color: $brand-color;
+  text-align: center;
+  padding-top: 4em;
+  padding-bottom: 8em;
+  color: white;
+
+  img {
+    width: 50%;
+    max-width: 100px;
+  }
+
+  .sponsors {
+    width: 100%;
+    display: inline-block;
+    margin: 1em 0;
+
+    div {
+      @include col(2,12);
+
+      @include media-query($on-palm) {
+          @include col(4,12);
+        }
+
+      &:first-of-type {
+        @include col-offset(3,12);
+
+        @include media-query($on-palm) {
+          margin-left: 0;
+        }
+      }
+
+      img {
+        max-height: 100px;
+      }
+    }
+  }
+}

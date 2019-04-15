@@ -1,18 +1,26 @@
 <header class="site-header" role="banner">
+  {% assign default_paths = site.pages | map: "path" %}
+  {% assign page_paths = site.header_pages | default: default_paths %}
+  <div class="header">
 
-  <div class="wrapper">
-    {% assign default_paths = site.pages | map: "path" %}
-    {% assign page_paths = site.header_pages | default: default_paths %}
-    <div class="header">
-      <div class="logo">
-        <a href="{{ "/" | relative_url }}">
-          <img src="{{ relative_url }} /assets/img/logo-primary-a.svg"
-            alt="Kulturföreningen Lava"></a>
+    <nav role="navigation">
+      <div id="nav-button">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <ul id="menu">
+          {% for item in site.data.navigation.nav %}
+          <li>
+          {% if item.external %}
+          <a href="{{ item.url }}">{{ item.title }}</a>
+          {% else %}
+          <a href="{{site.url}}{{ item.url }}">{{ item.title }}</a>
+          {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
       </div>
-      <div class="title">
-        <h1> {{ site.data.strings.sv.title }} 
-        / {{ site.data.strings.fit.title }} </h1>
-      </div>
-    </div>
+    </nav>
   </div>
 </header>

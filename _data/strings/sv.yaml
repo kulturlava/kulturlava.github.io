@@ -1,24 +1,94 @@
-title: Solfesten
-subtitle: >
-          "Vi städar ur fårstallet och lånar in ett PA"
-preamble:
-    p: >
-        Det är precis vad vi ska göra! Kulturföreningen Lava bjuder in er
-        alla till midsommarfirande under tornedalens midnattssol.
-        Tillsammans skapar vi en midsommarafton med musik, dans, lek, bastu,
-        midsommarbuffé och ett firande vi sent kommer glömma.
-date:
-    title: Midsommar 23/6
-    p : >
-        Midsommarafton är den 23 juni och firandet kommer börja på förmiddagen
-        och fortsätta tills vi inte längre orkar hålla ögonen öppna. Det går
-        även bra att komma dagarna innan och stanna gärna kvar och bearbeta
-        aftonen några dagar efteråt.
+splash:
+    title: Aurinkofesti
+    date: juni
+    more: Berätta mer
+    tickets: Biljetter
+home:
+    preamble:
+        p: >
+            Kulturföreningen Lava bjuder in till årets soligaste midsommarfestival!
+            Aurinkofesti är en folkfest för alla och i dagarna två vill vi dansa,
+            sjunga och skåla tillsammans med er.
+    date:
+        title: Midsommar 20-21/6
+        p : >
+            Vi binder brokiga kransar, reser midsommarstång, sjunger om grodorna
+            små och dansar i ring. Det blir ett hejdundrandes midsommarfirande!
+    location:
+        title: Tärendöholmen
+        p: >
+            Vi slår upp portarna till festplatsen Tärendöholmen! Festplatsen där
+            två älvar möts har sedan 50-talet varit en idyll för för musik, fest
+            och möten.
+    inclusive:
+        title: Kultur för alla
+        p: >
+            Aurinkofesti har något för både stora och små. Det blir svängiga
+            liveband, spännande workshops, familjeteater och filmvisning.
+about:
+    title: Om oss
+    intro:
+        title: Kulturföreningen Lava
+        p: >
+            Kulturföreningen Lava skapades för tre år sedan med syfte att skapa
+            kulturevenemang i Tornedalen. Under midsommar 2019 arrangerar
+            Kulturföreningen Lava midsommarfestivalen Aurinkofesti. Festivalen
+            arrangeras av föreningen för andra gången för att bibehålla levande
+            kultur i Tornedalen.
+program:
+    title: Program & akter
+    intro:
+        p: >
+            På Aurinkofesti finns något för alla. Vi släpper nya akter allt
+            eftersom.
+    program:
+        title: Program
+        p: >
+            Vi återkommer med ett helt program för torsdagskvällen och hela
+            midsommarafton när det närmar sig.
+    acts:
+        title: Akter
+act:
+    vaart:
+        title: Väärt
+        p: >
+            Med inspiration från sitt kulturella arv i norra Norrland tog Väärt
+            oss med storm i början av 10-talet. På midsommarafton spelar Väärt
+            sin indiepop/rock och trollbinder oss med sånger som på ett unikt
+            sätt skildrar den arktiska naturen, dess människor och livsvillkor.
 location:
-    title: Ekfors, Övertorneå
-    p: >
-        Firandet kommer äga rum på Bengt Ailis gård i Ekfors. Gården ligger vid
-        sjön Puostijärvi, två mil från Övertorneå.
+    title: Tärendöholmen
+    intro:
+        title: Platsen
+        p: >
+            Vi slår upp portarna till festplatsen Tärendöholmen! Festplatsen
+            där två älvar möts har sedan 50-talet varit en idyll för för
+            musik, fest och möten.
+info:
+    title: Info
+    intro:
+        p: >
+            Undrar du över något? Här hittar du allt du behöver veta inför ditt
+            festivalbesök. Om du inte fått svar på din fråga kan du alltid
+            mejla oss på: kulturlava@gmail.com
+
+            Mer information kommer.
+    camping:
+        title: Camping
+        p: >
+            Campa på Aurinkofesti! För den som vill festivala både torsdag och
+            fredag finns möjlighet att slå upp ett tält i anslutning till
+            festivalområdet.
+    volunteer:
+        title: Funktionär
+        p: >
+            Hjälp oss att göra Aurinkofesti så solig, glad och festlig som det
+            bara går!
+
+            Anmäl ditt intresse här, så hör vi snart av oss och berättar mer:
+            kulturlava@gmail.com
+newsletter:
+    signup: Skriv upp dig på vårt nyhetsbrev!
 join:
     title: Häng med
     directions:
@@ -174,7 +244,7 @@ form:
     thanks:
         h1: Tack!
         p: Du är nu anmäld. Glöm inte att betala in avgiften!
-credits: I samarbete med fortsättningskursen i meänkieli vid Umeå universitet.
+credits:
 takeover:
     more: Berätta mer
     signup: Skriv upp dig på vårt nyhetsbrev

@@ -1,8 +1,13 @@
 ---
 layout: page
-title: About
+title: Om oss
 permalink: /about/
+string: about
+img_url: /assets/img/kulturlava-main.jpg
+lang:
+    - sv
+    - fit
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Mitt i Tornedalen ligger Tärendöholmen. Festplatsen där två älvar möts har sedan 50-talet varit en idyll för musik, fest och möten.
 

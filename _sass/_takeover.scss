@@ -94,41 +94,6 @@
   left: 0;
 }
 
-.takeover-sub {
-  background-color: $brand-color;
-  color: white;
-  padding-top: 4em;
-
-  @include media-query($on-palm) {
-    padding-top: 2em;
-  }
-
-  .wrapper h2 {
-    text-align: center;
-    line-height: 1em;
-  }
-
-  form:after {
-    display: none;
-  }
-
-  button {
-    background-color: lighten($brand-color, 5);
-    color: white;
-    font-size: 2.5em;
-    padding: 0.5em;
-
-    &:active {
-      background-color: lighten($brand-color, 8);
-    }
-  }
-}
-
-.social a {
-  font-size: 0.7em;
-  color: white;
-}
-
 .takeover-footer {
   text-align: center;
   padding-bottom: 8em;
