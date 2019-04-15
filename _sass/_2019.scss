@@ -10,7 +10,6 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgba($brand-color, 0.5);
-    background-blend-mode: luminosity;
 
     @include media-query($on-laptop) {
       background-position: 25% 60%;
