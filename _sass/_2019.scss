@@ -81,12 +81,12 @@
 
 .splash-readMore {
   position: absolute;
-  bottom: 5.5em;
+  bottom: 1.5em;
   font-size: 1.3em;
   text-align: center;
 
   @include media-query($on-palm) {
-    bottom: 4em;
+    bottom: 1em;
     font-size: 1.1em;
   }
 
