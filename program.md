@@ -11,6 +11,10 @@ lang:
 acts:
 - act: vaart
   img_url: /assets/img/vaart.png
+- act: hostorkestern
+  img_url: /assets/img/hostorkestern.png
+- act: jan
+  img_url: /assets/img/jan.png
 ---
 
 
