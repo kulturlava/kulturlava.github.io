@@ -19,6 +19,7 @@
 
 .acts {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 
   @include media-query($on-palm) {
@@ -28,6 +29,7 @@
   .act {
     position: relative;
     cursor: pointer;
+    flex-grow:1;
     width: calc(100%/3);
     padding-top: calc(100%/3);
 

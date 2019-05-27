@@ -41,8 +41,7 @@ program:
     title: Ohjelma ja näytökset
     intro:
         p: >
-            Aurinkofestissä oon kaikile jotaki. Met löysäämä uusia näytöksiä
-            syrjäämyöten.
+            Aurinkofestissä oon kaikile jotaki.
     program:
         title: Ohjelma
         p: >
@@ -51,6 +50,16 @@ program:
     acts:
         title: Näytökset
 act:
+    magnettes:
+        title: The Magnettes
+        p: >
+            Pajalan oma fuck-poppi triiu the Magnettes pellaa juhanusaaton
+            iltana. Meänkieli + punk-poppi, mikä juttu!
+
+            Tullee olheen peppistä kolotansia aito The Magnettes-tyylissä
+            niitten patriarkaattikrossi-sävelykshiin. Lämmitä ylös
+            juhanusaattoa vasten! Joitaki kuumia tipsiä oon Pajala State
+            of Mind ja viiminen singeli KIM N KANYE.
     vaart:
         title: Väärt
         p: >
@@ -77,6 +86,43 @@ act:
             Met tarjoama lauluja meänkielelä jokka joko oon suriliset elikkä
             ilahtavat. Ko Jan piättää haitaria niin se oon kaukana
             mellanmaito-musikkista, sen met saatama luata!
+    sprakmodrarna:
+        title: Kieliäitit
+        p: >
+            Pereteatterissa Kieliäitit tialookia varvathaan musikilla jotako
+            suomalainen kansanmusikki ja uuenaikhainen poppi oon inspireeranu.
+            Esitys puhaltaa elämää kysymykshiin jokka koskevat kieltä,
+            itenttiteettiä, minuriteettiperspektiiviä ja ruottinsuomalaista
+            kulttuuria.
+
+            Esityksessä met saama oppia tuntheen Svean (ruottin valtion) ja
+            Ainon (ruottinsuomalaiset) jokka vahingossa ajavat miehele pääle,
+            mies joka näyttää olevan suomenkieli omassa henkilössä.
+            Onnettomuuen jälkhiin met saama lähteä matkhaan Svean ja Ainon
+            reishuun, sokin, reaksuunin, sopeutumisen ja uusorienteerinkin
+            kautta.
+    mirja:
+        title: Mirja Palo
+        p: >
+            Mirja Palo pellaa musikkia joka oon saanu vaikutuksen puesiista,
+            puhutusta sanasta/spoken wordista ja norrbottenilaisesta
+            kansanlauluperintheestä. Tutkii hänen iteata norrbottenilaisesta
+            sielusta. Musikki luothaan silmänräphäyksessä!
+
+            Tuorestai-iltana Mirja antaa rauhalisen konsäärin sulle joka olet
+            etu-festivaali-halukas.
+    panelsamtal:
+        title: Met Nuoret-keskustelu
+        p: >
+            Miksis met piämä puhua työtuvista ja kallonmittauksista?
+            Aurinkofestin aikana Ida Brännström tullee johtamhaan
+            panelikeskustelua joka ottaa ylös kysymyksen.
+
+            Keskustelu oon seuraavasta: ”Silloin mie olin ko fanki” -
+            kertomuksia kunka ruottin valtio loukkasi Tornionlaaksolaisia ja
+            meänkieltäpuhuvia 1800- ja 1900-luvuila. Nyt kertomukset
+            paljastethaan. Mitäs tämä histuuria merkittee nuorile tänä päivänä?
+            Onkos se tärkeätä puhua niistä elikkä onkos se parempi unhouttaa?
 location:
     title: Täräntöholmi
     intro:

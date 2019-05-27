@@ -39,8 +39,7 @@ program:
     title: Program & akter
     intro:
         p: >
-            På Aurinkofesti finns något för alla. Vi släpper nya akter allt
-            eftersom.
+            På Aurinkofesti finns något för alla.
     program:
         title: Program
         p: >
@@ -49,6 +48,15 @@ program:
     acts:
         title: Akter
 act:
+    magnettes:
+        title: The Magnettes
+        p: >
+            Pajalas egna fuck-pop trio the Magnettes spelar på midsommaraftons
+            kväll. Meänkieli + punk-pop, vilken grej!
+
+            Det blir peppig fuldans i äkta The Magnettes-anda till deras
+            patriarkatkrossar-toner. Värm upp inför midsommarafton! Några heta
+            tips är Pajala State of Mind och senaste singeln KIM N KANYE.
     vaart:
         title: Väärt
         p: >
@@ -74,6 +82,40 @@ act:
             Vi bjuds på sånger på meänkieli som är antingen vemodiga eller
             medryckande. Med Jan bakom dragspelet blir det långt ifrån
             mellanmjölks-musik, det kan vi lova!
+    sprakmodrarna:
+        title: Språkmödrarna
+        p: >
+            I familjeteatern Språkmödrarna varvas dialog med musik inspirerad
+            av alltifrån finsk folkmusik till modern pop. Föreställningen
+            blåser liv i frågor som berör språk, identitet,
+            minoritetsperspektiv och sverigefinsk kultur.
+
+            I föreställningen får vi lära känna Svea (svenska staten) och Aino
+            (sverigefinnarna) som av misstag kör på en man som visar sig vara
+            finska språket i egen hög person. Efter olyckan får vi följa med
+            på Sveas och Ainos resa genom chock, reaktion, bearbetning och
+            nyorientering.
+    mirja:
+        title: Mirja Palo
+        p: >
+            Mirja Palo spelar musik influerad av poesi, spoken word och den
+            norrbottniska folksångstraditionen. Utforskar sin idé om den
+            norrbottniska själen. Musiken skapas i ögonblicket!
+
+            På torsdagkvällen ger Mirja en stilla konsert för dig som är
+            för-festival sugen.
+    panelsamtal:
+        title: Met Nuoret-samtal
+        p: >
+            Varför ska vi prata om arbetsstugor och skallmätningar? Under
+            Aurinkofesti kommer Ida Brännström leda ett panelsamtal som tar
+            upp frågan.
+
+            Samtalet bygger på ”Då var jag som en fånge” - berättelser om
+            svenska statens övergrepp på Tornedalingar och meänkielitalande
+            under 1800- och 1900-talen. Nu kommer berättelserna upp till ytan.
+            Vad betyder den här historien för unga idag? Är det viktigt att
+            prata om det eller är det bättre att glömma?
 location:
     title: Tärendöholmen
     intro:
