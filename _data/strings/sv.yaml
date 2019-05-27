@@ -23,8 +23,8 @@ home:
     inclusive:
         title: Kultur för alla
         p: >
-            Aurinkofesti har något för både stora och små. Det blir svängiga
-            liveband, spännande workshops, familjeteater och filmvisning.
+            Aurinkofesti har något för både stora och små. Det blir [svängiga
+            liveband, spännande workshops, familjeteater och filmvisning]({% link news/index.html %}).
 about:
     title: Om oss
     intro:
