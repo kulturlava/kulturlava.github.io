@@ -10,17 +10,6 @@
 
 <footer class="site-footer">
   <div class="wrapper">
-    <!-- <div class="sponsors">
-      <div>
-        <img src="{{ relative_url }} /assets/img/sponsors/kulturens.jpg">
-      </div>
-      <div>
-        <img src="{{ relative_url }} /assets/img/sponsors/metnuoret.png">
-      </div>
-      <div>
-        <img src="{{ relative_url }} /assets/img/sponsors/nyamodigheter.png">
-      </div>
-    </div> -->
     <img src="{{ relative_url }} /assets/img/logo-text-white.png"
       alt="Kulturföreningen Lava">
     <h3 class="footer-heading">{{ site.email | escape }}</h3>
@@ -34,6 +23,15 @@
     </div>
   </div>
 </footer>
+<div class="sponsors">
+  <ul>
+    {% for item in site.data.sponsors %}
+    <li>
+    <img src="assets/img/sponsors/{{ item.img_url }}" />
+    </li>
+    {% endfor %}
+  </ul>
+</div>
 <div id="language">
   <button value="sv" id="active">Svenska</button>
   / <button value="fit">Meänkieli</button>
