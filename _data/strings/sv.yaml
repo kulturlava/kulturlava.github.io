@@ -17,14 +17,15 @@ home:
     location:
         title: Tärendöholmen
         p: >
-            Vi slår upp portarna till festplatsen Tärendöholmen! Festplatsen där
-            två älvar möts har sedan 50-talet varit en idyll för musik, fest
-            och möten.
+            Vi slår upp portarna till festplatsen [Tärendöholmen](location/)!
+            Festplatsen där två älvar möts har sedan 50-talet varit en idyll
+            för musik, fest och möten.
     inclusive:
         title: Kultur för alla
         p: >
-            Aurinkofesti har något för både stora och små. Det blir svängiga
-            liveband, spännande workshops, familjeteater och filmvisning.
+            Aurinkofesti har något för både stora och små. Det blir [svängiga
+            liveband, spännande workshops, familjeteater och
+            filmvisning](program/).
 about:
     title: Om oss
     intro:
@@ -124,6 +125,18 @@ location:
             Vi slår upp portarna till festplatsen Tärendöholmen! Festplatsen
             där två älvar möts har sedan 50-talet varit en idyll för
             musik, fest och möten.
+    bus:
+        title: Länstrafik-buss
+        p: >
+            Ta länstrafik-bussen till Aurinkofesti! Nämsta busshållplats
+            heter Tärendö Kyrkbacken väg 394. Därifrån knatar du till
+            Tärendöholmen på 15 minuter.
+    car:
+        title: Bil
+        p: >
+            Vid holmen finns parkeringsplatser där du kan ställa bilen.
+            [Här hittar du vägbeskrivning](https://goo.gl/maps/SF1Yv1Ez9YzDXdS68)
+            till Aurinkofesti.
 info:
     title: Info
     intro:
@@ -134,19 +147,47 @@ info:
 
             Mer information kommer.
     camping:
-        title: Camping
+        title: Tältplats
         p: >
-            Campa på Aurinkofesti! För den som vill festivala både torsdag och
-            fredag finns möjlighet att slå upp ett tält i anslutning till
-            festivalområdet.
+            Tälta på Aurinkofesti! För den som vill sova över finns möjlighet
+            att slå upp ett tält i anslutning till festivalområdet. På
+            tältplatsen finns vatten, toaletter och bajamajor.
     volunteer:
         title: Funktionär
         p: >
             Hjälp oss att göra Aurinkofesti så solig, glad och festlig som det
             bara går!
 
-            Anmäl ditt intresse här, så hör vi snart av oss och berättar mer:
-            kulturlava@gmail.com
+            [Anmäl ditt intresse här](https://forms.gle/dJftyoJmdwJ7bAkz8), så
+            hör vi snart av oss och berättar mer.
+    accessibility:
+        title: Tillgänglighet
+        p: >
+            Aurinkofesti är en [folkfest för alla](accessibility/)! Därför
+            arbetar vi aktivt med jämställdhet och mångfald - alla ska känna
+            sig representerade, inbjudna och välkomna på Aurinkofesti.
+accessibility:
+    title: Tillgänglighet
+    intro:
+        p: >
+            Aurinkofesti är en folkfest för alla! Därför arbetar vi aktivt med
+            jämställdhet och mångfald - alla ska känna sig representerade,
+            inbjudna och välkomna på Aurinkofesti.
+    hosts:
+        title: Trygghetsvärdar
+        p: >
+            Vi vill att du ska känna dig trygg på Aurinkofesti! Våra
+            trygghetsvärdar finns till för att våra besökare alltid ska ha
+            någon att vända sig till på festivalen.
+    wc:
+        title: Toaletter
+        p: >
+            På Tärendöholmen finns ett gäng toaletter, både på festivalområdet
+            och på tältplatsen. På tältplatsen finns även bajamajor.
+
+            På festivalområdet finns det även en tillgänglig toalett anpassad
+            för personer med funktionsnedsättning. På tältområdet finns en
+            tillgänglig bajamaja.
 newsletter:
     signup: Skriv upp dig på vårt nyhetsbrev!
 join:

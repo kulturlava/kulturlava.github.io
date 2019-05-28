@@ -8,7 +8,7 @@ home:
         p: >
             Vietä juhanusta yhessä Aurinkofestissä 2019! Täälä tullee olheen
             klassisia ja epäklassisia juhanusaktiviteettiä ja illala
-            Höstorkestern, Väärt ja The Magnettes pellaavat. 
+            Höstorkestern, Väärt ja The Magnettes pellaavat.
     date:
         title: Juhanus 20-21/6
         p : >
@@ -18,15 +18,15 @@ home:
     location:
         title: Täränönsaari
         p: >
-            Met aukasemma portit festipaikhaan Täräntöholmile! Festipaikka jossako
-            kaks väylää kohtaavat oon jo 50-luvulta asti ollu itylli musikile,
-            festile ja kohtaamisille.
+            Met aukasemma portit festipaikhaan [Täräntöholmile](location/)!
+            Festipaikka jossako kaks väylää kohtaavat oon jo 50-luvulta asti
+            ollu itylli musikile, festile ja kohtaamisille.
     inclusive:
         title: Kulttuuri kaikille
         p: >
             Aurinkofestilä oon jotaki niin suurile ko pienile. Sielä tullee olheen
-            svängaavia livepäntiä, jännittäviä työpajoja, perheteatteria ja
-            filminäyttelyjä.
+            [svängaavia livepäntiä, jännittäviä työpajoja, perheteatteria ja
+            filminäyttelyjä](program/).
 about:
     title: Meistä
     intro:
@@ -131,6 +131,18 @@ location:
             Met aukasemma portit festipaikhaan Täräntöholmile! Festipaikka
             jossako kaks väylää kohtaavat oon jo 50-luvulta asti ollu itylli
             musikile, festile ja kohtaamisille.
+    bus:
+        title: Läänintrafiki-pyssi
+        p: >
+            Ota läänintrafiki-pyssi Aurinkofesthiin! Likkiimän
+            pyssiootuspaikan nimi oon Täräntö Kyrkbacken tie 394. Sieltä
+            sie kävelet Täräntöholmile 15 minutissa.
+    car:
+        title: Piili
+        p: >
+            Holmila oon parkkeerinkipaikkoja johonka sie saatat jättää piilin.
+            [Sielä sie löyät tieselostuksen](https://goo.gl/maps/SF1Yv1Ez9YzDXdS68)
+            Aurinkofesthiin.
 info:
     title: Info
     intro:
@@ -142,19 +154,51 @@ info:
 
             Lissää informasuunia tullee.
     camping:
-        title: Kamppinki
+        title: Telttapaikka
         p: >
-            Kamppaa Aurinkofestissä! Sille joka halvaa olla festivaalissa niin
-            tuorestaina ko  perjantaina oon maholisuus panna ylös teltan
-            festivaalipaikan yhtheyessä.
+            Telttaa Aurinkofestissä! Sillä joka halvaa nukkua yli oon
+            maholisuus panna ylös teltan festivaalialuheen vieressä.
+            Telttapaikala oon vettä, tualettiä ja hyysiköitä, niin sanottuja
+            bajamaja.
     volunteer:
         title: Työväki
         p: >
             Auta meitä tekheen Aurinkofestistä niin aurinkosen, hauskan ja
             juhlalisen ko suinki mennee!
 
-            Ilmota tässä jos sie olet innostunnu, niin met otama yhtheyttä
-            hetin ja selitämmä lissää: kulturlava@gmail.com
+            [Ilmota tässä jos sie olet
+            innostunnu](https://forms.gle/dJftyoJmdwJ7bAkz8), niin met otama
+            yhtheyttä hetin ja selitämmä lissää.
+    accessibility:
+        title: Saatavuus
+        p: >
+            Aurinkofesti [oon kansanfesti kaikile](accessibility/)! Sen takia
+            met tehemä aktiivisti töitä tasa-arvosuuele ja moninaisuuele -
+            kaikin pitävät tuntea ittensä eustetuksi, kuttutuksi ja
+            tervetulheiksi Aurinkofesthiin.
+accessibility:
+    title: Saatavuus
+    intro:
+        p: >
+            Aurinkofesti oon kansanfesti kaikile! Sen takia met tehemä
+            aktiivisti töitä tasa-arvosuuele ja moninaisuuele - kaikin
+            pitävät tuntea ittensä eustetuksi, kuttutuksi ja tervetulheiksi
+            Aurinkofesthiin.
+    hosts:
+        title: Turvalisuusväärtiä
+        p: >
+            Met halvaama ette sie tunnet ittesti turvaliseksi Aurinkofestissä!
+            Meän turvalisuusväärtit oon sen takia ette meän käviöilä aina
+            pittää olla joku jonka työ net saattavat käänytä festivaalissa.
+    wc:
+        title: Tualettiä
+        p: >
+            Täräntöholmila oon useampia tualettiä, niin festivaalialuheela ko
+            telttapaikala. Telttapaikala oon kansa hyysiköitä/ bajamaja.
+
+            Festivaalialuheela oon kansa saatavissa tualetti joka oon
+            tarkotettu henkilöile joilako oon toimintarajotus. Telttapaikala
+            oon yks hyysikkä/bajamaja.
 newsletter:
     signup: Kirjota sinun nimi meän uutispreivile!
 join:
