@@ -14,7 +14,7 @@
     {% endif %}
   </h3>
   <p>
-    {{ item.p | newline_to_br }}
+    {{ item.p | newline_to_br | markdownify }}
     {% if item.a %}
     <a target="_blank"
       href="{{item.a.href}}">
