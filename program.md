@@ -23,6 +23,10 @@ acts:
   img_url: /assets/img/mirja.jpg
 - act: panelsamtal
   img_url: /assets/img/panelsamtal.jpg
+- act: turpakiinni
+  img_url: /assets/img/turpakiinni.jpg
+- act: tornedalsteatern
+  img_url: /assets/img/tornedalsteatern.jpg
 ---
 
 
