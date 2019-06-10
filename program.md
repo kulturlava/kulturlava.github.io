@@ -4,6 +4,7 @@ title: Akter och program
 permalink: /program/
 string: program
 img_url: /assets/img/kulturlava-band.jpg
+program_img_url: /assets/img/program.jpg
 lang:
     - sv
     - fit

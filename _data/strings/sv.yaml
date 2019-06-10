@@ -41,13 +41,6 @@ program:
     intro:
         p: >
             På Aurinkofesti finns något för alla.
-    program:
-        title: Program
-        p: >
-            Vi återkommer med ett helt program för torsdagskvällen och hela
-            midsommarafton när det närmar sig.
-    acts:
-        title: Akter
 act:
     magnettes:
         title: The Magnettes

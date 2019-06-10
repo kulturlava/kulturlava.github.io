@@ -42,13 +42,6 @@ program:
     intro:
         p: >
             Aurinkofestissä oon kaikile jotaki.
-    program:
-        title: Ohjelma
-        p: >
-            Met päästämä kokohnaisen ohjelman tuorestai-illale ja koko
-            juhanusaatole ko aika likentellee.
-    acts:
-        title: Näytökset
 act:
     magnettes:
         title: The Magnettes

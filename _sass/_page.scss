@@ -17,6 +17,16 @@
     }
 }
 
+.program {
+  text-align: center;
+
+  img {
+    @include media-query($on-palm) {
+      width: 100%;
+    }
+  }
+}
+
 .acts {
   display: flex;
   flex-wrap: wrap;

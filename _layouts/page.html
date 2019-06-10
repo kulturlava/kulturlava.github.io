@@ -18,6 +18,9 @@ layout: page
       </div>
     </main>
     {% if page.acts %}
+    <div class="program">
+      <img src="{{ page.program_img_url }}"/>
+    </div>
     <div class="acts" id="acts">
       {% for act in page.acts %}
       <div class="act">
