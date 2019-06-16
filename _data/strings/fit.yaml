@@ -125,6 +125,12 @@ act:
             ja kehittyä maaseutupaikassa. Filmi oon pelattu sisäle
             paikkakunnala ja monela tapahtumalla vuen festivaalissa oon
             liitheitä filhmiin.
+    tornedalsteatern:
+        title: Kieliakropatiikkiä
+        p: >
+            Kieliakropatiikkiä lapsile! Pruuaa jongleerausta, akropatiikkiä ja
+            poipalloa. Tornionlaaksonteatteri pittää kielityöpaijaa jossako
+            meänkieltä tutkithaan leikissä.
 location:
     title: Täräntöholmi
     intro:
