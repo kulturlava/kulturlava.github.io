@@ -151,8 +151,27 @@ info:
             Undrar du över något? Här hittar du allt du behöver veta inför ditt
             festivalbesök. Om du inte fått svar på din fråga kan du alltid
             mejla oss på: kulturlava@gmail.com
+    entrance:
+        title: Entré
+        p: >
+            Du kan köpa biljett på plats i Tärendöholmens entré. Då betalar du
+            med Swish.
 
-            Mer information kommer.
+            Priser i entrén:
+
+            Dagsbiljett 120 kronor
+
+            Dags och kvällsbiljett 280 kronor
+
+            Dagsbiljett pensionär 60 kronor
+
+            Om du har köpt biljett i förväg behöver visa upp den i entrén. Det
+            går bra att skriva ut biljetten på papper eller visa upp den i sin
+            telefon.
+
+            I entrén behöver du också kunna visa din legitimation.
+
+            Ingen alkohol får tas med in på Tärendöholmen. Inte heller droger eller vapen.
     food:
         title: Mat
         p: >
